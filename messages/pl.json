@@ -1,0 +1,413 @@
+{
+  "HomePage": {
+    "AboutUs": {
+      "title": "Kunszt spawalniczy kujący doskonałość",
+      "subTitle": "O NAS",
+      "description": "Jesteśmy zespołem specjalistów, których cechuje nie tylko umiejętność perfekcyjnego spawania, ale także głęboka pasja do tworzenia. Nasze doświadczenie oparte na dziesięcioletniej praktyce pozwala nam śmiało kroczyć ścieżką doskonałości.<br/><br/> Każdy projekt traktujemy jako wyzwanie, które podejmujemy z determinacją, aby zapewnić naszym klientom nie tylko produkt o najwyższej jakości, ale także satysfakcję i pewność, że ich oczekiwania zostały spełnione ponad oczekiwania.",
+      "button": "Więcej o nas",
+      "count": "Wykonanych<br/>Projektów"
+    },
+    "Excellence": {
+      "title": "Konstrukcje Stalowe — z montażem na terenie całej Polski i Niemiec.",
+      "subTitle": "Twoja budowa. Nasza odpowiedzialność.",
+      "description": "Realizujemy projekty w całej Polsce i Niemczech — niezależnie, czy budujesz dom, biuro czy halę. Dostarczamy gotowe konstrukcje stalowe, balustrady, bramy od A do Z, a Ty zyskujesz święty spokój.",
+      "button": "Zamów darmową wycenę"
+    },
+    "Faq": {
+      "title": "CO POWINIENEŚ WIEDZIEĆ",
+      "question1": "Czy możecie zaprojektować balustrady i ogrodzenia dostosowane do moich indywidualnych potrzeb?",
+      "answer1": "Oczywiście! Nasz zespół projektowy specjalizuje się w tworzeniu niestandardowych rozwiązań, które idealnie odpowiadają Twoim wymaganiom i preferencjom. Bez względu na to, czy potrzebujesz balustrady o nietypowym kształcie, czy też nietypowego wzoru ogrodzenia, jesteśmy gotowi zrealizować Twoje pomysłu",
+      "question2": "Czy mogę liczyć na poradę w wyborze odpowiedniego rozwiązania dla mojej przestrzeni?",
+      "answer2": "Oczywiście! Nasz zespół specjalistów służy fachowym doradztwem na każdym etapie procesu. Od pierwszego kontaktu aż po zakończenie montażu, jesteśmy tu, aby odpowiedzieć na Twoje pytania, podzielić się wiedzą i zapewnić Ci kompleksową pomoc w wyborze najlepszego rozwiązania dla Twojego domu lub ogrodu.",
+      "question3": "Czy oferujecie usługi montażu?",
+      "answer3": "Tak, kompleksowa obsługa jest naszym standardem. Nasz doświadczony zespół montażowy zadba o profesjonalne i precyzyjne zamontowanie wszystkich elementów konstrukcji. Dzięki temu możesz mieć pewność, że Twoje balustrady, ogrodzenia czy schody zostaną zainstalowane zgodnie z najwyższymi standardami.",
+      "question4": "Jakie są korzyści korzystania z balustrad i ogrodzeń wykonanych przez waszą firmę?",
+      "answer4": "Wybierając nasze produkty, możesz być pewien, że otrzymujesz nie tylko estetyczne i solidne konstrukcje, ale także gwarancję wysokiej jakości. Nasze balustrady, ogrodzenia i inne elementy są starannie zaprojektowane i wykonane z myślą o trwałości i funkcjonalności, co sprawia, że są one nie tylko atrakcyjnym elementem Twojej przestrzeni, ale także długotrwałym inwestycją.",
+      "question5": "Czy wasze konstrukcje są łatwe w utrzymaniu?",
+      "answer5": "Tak, stawiamy na trwałość i łatwość utrzymania naszych produktów. W zależności od wybranego materiału i wykończenia, większość naszych konstrukcji wymaga minimalnej konserwacji, co pozwala Ci cieszyć się nimi przez wiele lat bez konieczności częstego pielęgnowania.",
+      "question6": "Czy oferujecie gwarancję na wasze produkty i usługi?",
+      "answer6": "Tak, zapewniamy gwarancję na wszystkie nasze produkty oraz wykonane przez nas prace montażowe. Naszym celem jest pełne zadowolenie klienta, dlatego też staramy się zapewnić nie tylko wysoką jakość naszych konstrukcji, ale także kompleksową obsługę posprzedażną. Jeśli pojawią się jakiekolwiek problemy z naszymi produktami lub usługami, jesteśmy gotowi podjąć odpowiednie kroki naprawcze, aby zapewnić Twoją satysfakcję.",
+      "question7": "Ile kosztuje spawanie konstrukcji stalowych?",
+      "answer7": "Cena zależy od materiału, projektu i zakresu prac. Skontaktuj się, aby otrzymać darmową wycenę.",
+      "question8": "Jakie są rodzaje ogrodzeń stalowych?",
+      "answer8": "Oferujemy ogrodzenia panelowe, kute oraz stalowe malowane proszkowo, dopasowane do Twoich potrzeb.",
+      "question9": "Czy wykonujecie bramy przesuwne i skrzydłowe na zamówienie?",
+      "answer9": "Tak, realizujemy indywidualne projekty bram stalowych, dopasowanych do Twojej posesji.",
+      "question10": "Jakie zabezpieczenia antykorozyjne stosujecie? ",
+      "answer10": "Stosujemy cynkowanie ogniowe i malowanie proszkowe, aby zapewnić długowieczność stali.",
+      "question11": "Jak zamówić balustrady lub ogrodzenia stalowe?",
+      "answer11": "Skontaktuj się z nami, podaj wymiary i oczekiwania, a my przygotujemy indywidualną ofertę.",
+      "cta":"Zadaj pytanie",
+      "ctaTitle":"Nie znalazłeś odpowiedzi na swoje pytanie?",
+      "contactDescription":"Skontaktuj się z nami – odpowiemy szybko i doradzimy najlepsze rozwiązanie."
+
+    },
+    "OurProcess": {
+      "title": "NAJLEPSZE DOŚWIADCZENIE W REALIZACJI",
+      "subTitle": "NASZ PROCES",
+      "description": "Nasz proces realizacji zamówień to gwarancja najwyższej jakości i profesjonalizmu na każdym etapie. Dzięki starannej konsultacji, precyzyjnej produkcji i dokładnemu montażowi zapewniamy naszym klientom niezrównane doświadczenie, które spełnia nawet najwyższe oczekiwania.<br/><br/> Nasza pasja do doskonałości jest kluczem do sukcesu każdego projektu.",
+      "button": "Zamów bezpłatny projekt i wycenę",
+      "count1": "Konsultacja i projektowanie",
+      "count1description": "Rozpoczynamy od szczegółowej konsultacji, aby ustalić Twoje potrzeby i preferencje. Następnie tworzymy spersonalizowany projekt.",
+      "count2": "Produkcja i spawanie",
+      "count2description": "Po zatwierdzeniu projektu, przechodzimy do produkcji i spawania. Nasze doświadczone zespoły zapewniają wysoką jakość i precyzję wykonania.",
+      "count3": "Montaż i dostawa",
+      "count3description": "Po produkcji, dostarczamy zamówione elementy na miejsce i dokładnie je montujemy, dbając o każdy detal."
+    },
+    "OurServices": {
+      "title": "KUJEMY POŁĄCZENIA. ROZPALAMY POSTĘP.",
+      "subTitle": "Nasze usługi",
+      "count1": "Spawanie balustrad i ogrodzeń",
+      "count1description": "Nasze doświadczenie w spawaniu pozwala nam tworzyć balustrady i ogrodzenia o doskonałej wytrzymałości i estetyce. Niezależnie od projektu, jesteśmy gotowi dostarczyć solidne i eleganckie rozwiązania, które dodadzą wartości Twojej przestrzeni.",
+      "count2": "Konstrukcje metalowe na wymiar",
+      "count2description": "Potrzebujesz niestandardowej konstrukcji metalowej? Nasz zespół specjalistów może zaprojektować i wykonać dokładnie to, czego potrzebujesz. Bez względu na to, czy jest to wiatrak, konstrukcja pod reklamę czy element architektoniczny, zapewniamy wysoką jakość i precyzję wykonania.",
+      "count3": "Spawanie schodów i balkonów",
+      "count3description": "Dzięki naszemu doświadczeniu i umiejętnościom w spawaniu, możemy stworzyć schody i balkony, które nie tylko będą estetycznym elementem Twojej przestrzeni, ale także zapewnią bezpieczeństwo i trwałość przez wiele lat.",
+      "count4": "Ogrody zimowe i przestrzenie rekreacyjne",
+      "count4description": "Marzysz o wyjątkowym ogrodzie zimowym lub przestrzeni rekreacyjnej? Nasza firma może zrealizować Twoje marzenia, tworząc spawane konstrukcje, które staną się centrum relaksu i rozrywki dla Ciebie i Twoich bliskich.",
+      "count5": "Montaż i instalacja",
+      "count5description": "Nie musisz martwić się o montaż naszych konstrukcji - nasi wykwalifikowani technicy zajmą się tym za Ciebie. Dzięki naszemu profesjonalnemu podejściu i dbałości o szczegóły, możesz mieć pewność, że wszystko zostanie zainstalowane zgodnie z najwyższymi standardami.",
+      "count6": "Doradztwo i projektowanie",
+      "count6description": "Potrzebujesz pomocy w doborze najlepszego rozwiązania dla Twojego projektu? Nasz zespół doradców i projektantów służy fachowym wsparciem, pomagając Ci wybrać odpowiednie materiały, konstrukcje i rozwiązania techniczne, które spełnią Twoje oczekiwania i potrzeby."
+    },
+    "Realization": {
+      "title": "Zrealizowane zamówienia naszych klientów",
+      "subTitle": "Realizacje",
+      "count1": "Balustrady",
+      "count1description": "Bezpieczne balustrady, elegancja w każdym szczególe.",
+      "count2": "Bramy",
+      "count2description": "Nowoczesne bramy, ochrona i styl.",
+      "count3": "Inne konstrukcje stalowe",
+      "count3description": "Rozszerzone przestrzenie - Inne konstrukcje stalowe.",
+      "count4": "Ogrodzenia",
+      "count4description": "Solidne ogrodzenia, Twoja prywatność w pełni chroniona."
+    },
+    "Stats": {
+      "hours": "Godziny ekspertyzy",
+      "clients": "Zadowoleni klienci",
+      "projects": "Wykonanych projektów"
+    },
+    "Steps": {
+      "quality": "Jakość wykonania",
+      "qualityDescription": "Doskonała precyzja i staranność są naszymi priorytetami. Każdy detal jest dopracowany z dbałością o najwyższą jakość, aby zapewnić satysfakcję naszych klientów.",
+      "apply": "Certyfikaty i zgodność",
+      "applyDescription": "Wykorzystujemy tylko najwyższej jakości materiały, które są zgodne z najnowszymi standardami i posiadają odpowiednie certyfikaty potwierdzające ich jakość i bezpieczeństwo.",
+      "price": "Konkurencyjne ceny",
+      "priceDescription": "Oferujemy konkurencyjne ceny, niezależnie od skali projektu, bez kompromisów w jakości wykonania. Naszym celem jest zapewnienie wartościowych usług przy zachowaniu atrakcyjnych cen dla naszych klientów.",
+      "expierience": "<br /> Lata <br /> doświadczenia",
+      "expierienceDescription": "Nasza firma może pochwalić się dziesięcioletnim doświadczeniem w branży, co świadczy o naszej solidności, zaufaniu klientów i umiejętnościach zdobytych na przestrzeni lat.",
+      "button": "Skontaktuj się z nami"
+    },
+    "VisionMission": {
+      "title": "Tworzymy Solidne Połączenia i Innowacyjne Rozwiązania",
+      "subTitle": "Wizja i Misja",
+      "description": "Jesteśmy oddani jakości i precyzji w naszej pracy, nie tylko tworzymy ogrodzenia, bramy i balustrady, ale także budujemy trwałe relacje z naszymi klientami. Nasza misja polega na zapewnieniu nie tylko bezpieczeństwa i estetyki, lecz także pełnej satysfakcji i zaufania.",
+      "sentence": "Twój solidny fundament,",
+      "sentencePart": "twoje estetyczne wyobrażenia.",
+      "missionTitle": "Nasza misja",
+      "missionDescription": "Śmiało stawiamy na jakość i precyzję, tworząc nie tylko ogrodzenia, bramy i balustrady, lecz także trwające więzi z naszymi klientami. Nasza misja polega na zapewnieniu nie tylko bezpieczeństwa i estetyki, ale również satysfakcji i zaufania.",
+      "visionTitle": "Nasza wizja",
+      "visionDescription": "Wyobrażamy sobie świat, w którym nasze wyroby stanowią nie tylko element architektoniczny, ale także symbol solidności i stylu. Nasza wizja obejmuje inspirujące przestrzenie, które łączą ludzi i inspirują do ciągłego postępu i rozwoju."
+    }
+  },
+  "Header": {
+    "contact": "Kontakt",
+    "gallery": "Galeria",
+    "about": "O nas",
+    "home": "Strona Główna",
+    "blog": "Blog",
+    "offer":"Oferta"
+  },
+  "Footer": {
+    "location": "Lokalizacja",
+    "phone": "Telefon",
+    "email": "Email",
+    "country": "Drawno, Polska",
+    "copy": "2025 © Wszystkie prawa zasteżone",
+    "PrivacyPolicyTitle": "Polityka Prywatności – stalumo.com"
+  },
+  "Blog": {
+    "titleMain": "Blog - Stalumo",
+    "title": "Blog - Stalumo wszystko o stali konstrukcjach stawoych",
+    "homeTitle": "Strona główna",
+    "empty": "Brak wpisów",
+    "loadMore": "Załaduj więcej",
+    "loading": "Ładowanie...",
+    "description": "Odkryj nasz blog o spawaniu, bramach, garażach i barierkach. Znajdziesz praktyczne porady oraz informacje o konstrukcjach stalowych w Niemczech i Polsce.",
+    "keywords": "produkcja ogrodzeń, spawanie, konstrukcje stalowe, blog o spawaniu, kostrukcje stalowe niemcy"
+  },
+  "About": {
+    "title": "O nas",
+    "homeTitle": "Strona główna",
+    "descriptionTitle": "Profesjonalne Spawanie i Wyroby Metalowe na Polskim i Niemieckim Rynku",
+    "description": "Witajcie w Stalumo - firmie z pasją do metalu i zobowiązaniem do doskonałości. Z ponad 10-letnim doświadczeniem na rynku polskim i niemieckim, jesteśmy dumni z naszej reputacji jako solidnego partnera w branży metalowej. <br /> <br /> Od samego początku naszej działalności w 2010 roku, nieustannie dążymy do podnoszenia standardów jakości i profesjonalizmu w naszej pracy. Nasze usługi obejmują szeroki zakres działań, począwszy od spawania po produkcję bram, ogrodzeń, balustrad, balkonów, aż po wiaty i ogrody zimowe - zawsze z dbałością o detale i precyzję wykonania. <br /> <br /> Jesteśmy przekonani, że nasze produkty i usługi wyróżniają się nie tylko doskonałą jakością, ale także elastycznością i indywidualnym podejściem do potrzeb klienta. Każde zamówienie traktujemy jako wyjątkowe i dostosowujemy nasze rozwiązania do konkretnych wymagań, gwarantując satysfakcję nawet najbardziej wymagających klientów. <br /> <br /> Co nas wyróżnia? Oprócz naszego zaangażowania w dostarczanie produktów najwyższej jakości, jesteśmy również zgranym zespołem profesjonalistów, gotowym sprostać nawet najbardziej skomplikowanym wyzwaniom. Nasza firma składa się z wykwalifikowanych specjalistów, dla których metalowe wyroby to nie tylko praca, ale prawdziwa pasja. <br /> <br /> Działamy nie tylko na terenie Polski, ale również w Niemczech, co pozwala nam poszerzyć nasz zasięg i zaoferować nasze produkty i usługi klientom również za granicą. Nasza obecność na dwóch rynkach umożliwia nam również ciągły rozwój i doskonalenie naszych umiejętności, aby sprostać zmieniającym się potrzebom naszych klientów. <br /> <br /> Jeśli szukasz profesjonalnego partnera w branży metalowej, który dostarczy Ci nie tylko wysokiej jakości produkty, ale również kompleksową obsługę i wsparcie na każdym etapie projektu - Stalumo jest dla Ciebie idealnym wyborem. Dołącz do grona zadowolonych klientów i przekonaj się, dlaczego Stalumo to gwarancja solidności, jakości i profesjonalizmu. <br /> <br />",
+    "buttonContact":"Zapraszamy do współpracy!",
+    "ctaTitle":"Zainteresowany współpracą?",
+    "ctaDescription":"Skontaktuj się z nami, aby uzyskać wycenę, umówić pomiar lub dowiedzieć się więcej o naszej ofercie ogrodzeń.",
+"timeLineHeader":"Jak przebiega współpraca ze STALUMO?",
+    "timeLineTitleContact":"Kontakt i wycena",
+  "timeLineTitleSize":"Pomiar i projekt",
+  "timeLineTitleProduction":"Produkcja",
+  "timeLineTitleMake":"Montaż u klienta",
+  "timeLineTitleWarranty":"Gwarancja i wsparcie",
+"timeLineDescriptionContact": "Skontaktuj się z nami za pomocą formularza kontaktowego, telefonicznie lub mailowo. W oparciu o przesłane informacje przygotujemy dla Ciebie darmową, niezobowiązującą wycenę oraz odpowiemy na wszystkie pytania dotyczące realizacji zamówienia.",
+  
+  "timeLineDescriptionSize": "Nasz specjalista skontaktuje się z Tobą, aby umówić termin pomiaru na miejscu inwestycji. Dzięki temu możemy zaprojektować rozwiązanie idealnie dopasowane do Twoich oczekiwań oraz warunków technicznych budynku lub posesji.",
+  
+  "timeLineDescriptionProduction": "Na etapie produkcji wykorzystujemy wyłącznie sprawdzone technologie oraz stal najwyższej jakości. Każdy element jest precyzyjnie wykonany z dbałością o detale, aby konstrukcja była nie tylko estetyczna, ale również trwała i funkcjonalna przez lata.",
+  
+  "timeLineDescriptionMake": "Po zakończeniu produkcji nasz doświadczony zespół montażowy przeprowadza instalację bezpośrednio u klienta. Dbamy o czystość, precyzję oraz dotrzymywanie uzgodnionych terminów, by cała realizacja przebiegła sprawnie i profesjonalnie.",
+  
+  "timeLineDescriptionWarranty": "Wszystkie nasze produkty przechodzą szczegółową kontrolę jakości, co daje Ci pewność solidności wykonania. Oferujemy również stałe wsparcie posprzedażowe, abyś w każdej chwili mógł liczyć na naszą pomoc i doradztwo."
+
+ 
+  },
+  "Contact": {
+    "title": "Skontaktuj się z nami",
+    "homeTitle": "Strona główna",
+    "description": "Masz projekt na myśli? Skontaktuj się z nami przez formularz kontaktowy, a my odpowiemy jak najszybciej. Z przyjemnością pomożemy Ci w realizacji Twojego pomysłu, zapewniając fachową pomoc i najwyższą jakość wykonania. Czekamy na Twoje pytania i propozycje – razem stworzymy coś wyjątkowego!",
+    "button": "Wyślij wiadomość",
+    "topic": "Temat",
+    "email": "Adres e-mail",
+    "content": "O co chcesz nas zapytać ?",
+    "loading": "Ładowanie...",
+    "success": "Wiadomość została wysłana poprawnie. Odpowiemy jak najszybciej to możliwe na podany adres email.",
+    "error": "Coś poszło nie tak",
+    "privacy": "Przesyłając wiadomość za pośrednictwem formularza kontaktowego, wyrażasz zgodę na przetwarzanie swoich danych osobowych zgodnie z naszą",
+    "PrivacyPolicyTitle": "Polityką Prywatności – stalumo.com",
+    "form": {
+  "category": "Kategoria",
+  "project": "Czy posiadasz projekt?",
+  "quantity": "Ilość (mb / szt / m² – doprecyzować przy opisie lub podać wymiar konstrukcji)",
+  "assembly": "Usługa montażu",
+  "phone": "Numer telefonu",
+  "date": "Preferowana data rozpoczęcia prac",
+  "yes": "Tak",
+  "no": "Nie",
+  "withInstallation": "Z montażem",
+  "noInstallation": "Bez montażu",
+  "select": "Wybierz...",
+  "balustrades": "Balustrady",
+  "gates": "Bramy",
+  "fences": "Ogrodzenia",
+  "wickets": "Furtki",
+  "structures": "Inne konstrukcje stalowe",
+  "summary": {
+    "category": "Kategoria",
+    "project": "Czy posiadasz projekt?",
+    "quantity": "Ilość",
+    "assembly": "Usługa montażu",
+    "phone": "Numer telefonu",
+    "date": "Data rozpoczęcia prac"
+  }
+}
+
+  },
+  "Gallery": {
+    "title": "Galeria",
+    "homeTitle": "Strona główna",
+    "cta":"Odezwij się – doradzimy i wycenimy",
+    "ctaTitle":"Nowoczesne balustrady i ogrodzenia stalowe, bramy oraz konstrukcje stalowe | STALUMO",
+    "contactDescription":"Tworzymy trwałe ogrodzenia, balustrady i konstrukcje stalowe na wymiar. Działamy w Polsce i Niemczech. Darmowa wycena – szybki kontakt!"
+  },
+  "Offer": {
+    "homeTitle":"Strona główna",
+    "title": "Oferta",
+    "fences":"Ogrodzenia",
+    "wickets":"Furtki",
+    "other-steel-structures":"Inne konstrukcje stalowe",
+    "subtitle": "Poznaj nasze produkty stalowe",
+    "railings": "Balustrady",
+    "gates": "Bramy",
+    "structures": "Konstrukcje",
+    "roofs": "Zadaszenia",
+    "other": "Inne",
+    "descriptionPage":{
+      "category":"Kategoria: ",
+      "railings": {
+        "titleCategory":"Balustrady Stalowe",
+        "header":" Stalowe balustrady – trwałość, styl i bezpieczeństwo",
+        "description1":"Nasze balustrady stalowe to precyzja wykonania, najwyższej jakości materiały i nowoczesna estetyka. Projektujemy z myślą o funkcjonalności i bezpieczeństwie, zachowując przy tym ponadczasowy wygląd. Sprawdzają się w przestrzeniach mieszkalnych i komercyjnych – od balkonów i tarasów, po klatki schodowe i antresole.",
+        "description2":"Stosujemy stal nierdzewną, czarną malowaną proszkowo lub łączymy różne materiały dla uzyskania unikalnych efektów. Każda realizacja jest indywidualna, dopasowana do architektury i preferencji klienta.",
+        "description3":"Współpraca z nami to gwarancja trwałości, stylu i realizacji na najwyższym poziomie. Skontaktuj się z nami, a zaprojektujemy balustradę, która stanie się integralną częścią Twojej przestrzeni.",
+        "questionTitle":"Dlaczego warto wybrać nasze balustrady?",
+        "example1":"Wysoka odporność na warunki atmosferyczne (stal nierdzewna i malowana proszkowo)",
+        "example2":"Możliwość łączenia wielu rónych materiałów",
+        "example3":"Idealne do balkonów, schodów, antresol i przestrzeni komercyjnych",
+        "example4":"Indywidualny projekt zgodny z Twoją architekturą i wizją",
+        "example5":"Montaż na terenie całej Polski i za granicą",
+        "materialTitle":"Materiały premium",
+        "mateiralDescription":"Korzystamy wyłącznie z atestowanych materiałów. Nasze balustrady wykonujemy głównie ze stali nierdzewnej 304/316, a dla klientów szukających nowoczesnego kontrastu – z czarnej stali malowanej proszkowo. Na życzenie wprowadzamy elementy z naturalnego drewna dębowego, szkła hartowanego oraz detale dekoracyjne wykonane techniką CNC.",
+        "check":"Zobacz różnicę",
+        "before":"Przed",
+        "after":"Po",
+        "efectDescription":"Powyżej prezentujemy efekt jednej z naszych realizacji: balkon w domu jednorodzinnym został przekształcony z przestarzałej, niebezpiecznej konstrukcji w elegancką balustradę ze stali nierdzewnej z elementami drewna.",
+        "contactTitle":"Zaprojektuj swoją balustradę z nami",
+        "contactDescription":"Skontaktuj się z nami, aby uzyskać indywidualną wycenę i wizualizację Twojej nowej balustrady. Doradzimy najlepsze materiały i styl dopasowany do Twojego wnętrza lub elewacji.",
+        "contactButtonLabel":"Umów się na konsultację",
+        "realization":"Zrealizowane projekty balustrad"
+      },
+      "fences":{
+        "titleCategory":"Ogrodzenia",
+        "header":"Ogrodzenia stalowe – ochrona i estetyka w jednym",
+        "description1":"Nasze ogrodzenia stalowe to idealne połączenie bezpieczeństwa, trwałości i elegancji. Wykonane z najwyższej jakości stali, zapewniają nie tylko ochronę posesji, ale też stanowią jej ozdobę. Oferujemy zarówno nowoczesne jak i klasyczne wzory, dopasowane do stylu domu oraz otoczenia.",
+        "description2":"Realizujemy projekty z wykorzystaniem stali czarnej malowanej proszkowo, stali nierdzewnej oraz elementów kutych. Na życzenie klienta możliwe jest łączenie z drewnem, blachami perforowanymi lub laserowo wycinanymi panelami.",
+        "description3":"Każde ogrodzenie powstaje z uwzględnieniem indywidualnych potrzeb klienta, a nasz zespół zapewnia kompleksową obsługę od projektu po montaż.",
+        "questionTitle":"Dlaczego warto wybrać nasze Ogrodzenia?",
+        "example1":"Trwałość i odporność na korozję dzięki powłokom malowanym proszkowo",
+        "example2":"Szeroki wybór wzorów, kolorów i wypełnień (blacha, drewno, siatka stalowa)",
+        "example3":"Dopasowanie do stylu architektury – od nowoczesnych po klasyczne",
+        "example4":"Kompleksowa obsługa – pomiar, projekt, wykonanie i montaż",
+        "example5":"Możliwość integracji z bramami przesuwnymi lub skrzydłowymi",
+        "materialTitle":"Materiały premium",
+        "mateiralDescription":"Stosujemy wyłącznie certyfikowane materiały: stal ocynkowaną malowaną proszkowo, stal nierdzewną, blachy perforowane oraz elementy drewniane z dębu lub modrzewia. Gwarantujemy estetykę, trwałość i perfekcyjne wykończenie każdego elementu.",
+        "check":"Zobacz różnicę",
+        "before":"Przed",
+        "after":"Po",
+        "efectDescription":"Powyżej widoczna jest modernizacja starego ogrodzenia z siatki drucianej. Zastąpiliśmy je nowoczesnym ogrodzeniem panelowym ze stali malowanej proszkowo, które nie tylko poprawiło estetykę całej posesji, ale także zwiększyło jej bezpieczeństwo.",
+        "contactTitle":"Zaprojektuj swoje ogrodzenie z nami",
+        "contactDescription":"Skontaktuj się z nami, aby stworzyć ogrodzenie idealnie dopasowane do Twoich potrzeb. Zapewniamy profesjonalne doradztwo, pomiar i kompleksową realizację projektu.",
+        "contactButtonLabel":"Umów się na konsultację",
+        "realization":"Zrealizowane projekty ogrodzeń"
+      },
+      "gates":{
+        "titleCategory":"Bramy",
+        "header":"Bramy – funkcjonalność, estetyka i bezpieczeństwo",
+        "description1":"Oferujemy nowoczesne bramy dopasowane do każdej posesji – od minimalistycznych modeli po dekoracyjne konstrukcje z elementami drewnianymi lub ciętymi laserowo. Stawiamy na jakość, trwałość i spójność wizualną z otoczeniem.",
+        "description2":"Realizujemy projekty indywidualne, w tym bramy przesuwne, dwuskrzydłowe oraz automatyczne. Korzystamy z materiałów najwyższej klasy – stali nierdzewnej, stali malowanej proszkowo, drewna i szkła. Każda brama to połączenie estetyki z nowoczesną technologią.",
+        "description3":" Dbamy o każdy detal – od projektu, przez produkcję, po profesjonalny montaż. Tworzymy bramy, które stanowią wizytówkę posesji i zapewniają niezawodną ochronę przez długie lata.",
+        "questionTitle":"Dlaczego warto wybrać nasze bramy?",
+        "example1":"Nowoczesne i klasyczne wzornictwo",
+        "example2":"Pełna automatyzacja – bramy z napędem",
+        "example3":"Indywidualne projekty dopasowane do otoczenia",
+        "example4":"Trwałe materiały – stal, drewno, szkło, aluminium",
+        "example5":"Kompleksowy montaż na terenie Polski i za granicą",
+        "materialTitle":"Materiały premium",
+        "mateiralDescription":"Wszystkie nasze bramy powstają z certyfikowanych materiałów: stali nierdzewnej, stali malowanej proszkowo, drewna dębowego, aluminium oraz szkła hartowanego. Oferujemy także elementy dekoracyjne cięte laserowo oraz niestandardowe wykończenia zgodnie z wizją klienta.",
+        "check":"Zobacz różnicę",
+        "before":"Przed",
+        "after":"Po",
+        "efectDescription":" Powyżej prezentujemy przykład wymiany starej bramy skrzydłowej na nowoczesną bramę przesuwną z automatem i dekoracyjnym panelem laserowym. To doskonały przykład, jak brama może całkowicie odmienić wygląd posesji.",
+        "contactTitle":"Zaprojektuj swoją bramę z nami",
+        "contactDescription":"Potrzebujesz funkcjonalnej i pięknej bramy? Skontaktuj się z nami – przygotujemy indywidualny projekt, doradzimy najlepsze rozwiązania i zadbamy o każdy etap realizacji.",
+        "contactButtonLabel":"Umów się na konsultację",
+        "realization":"Zrealizowane projekty bram"
+      },
+      "otherstell":{
+        "titleCategory":"Inne Konstrukcje Stalowe",
+        "header":"Inne konstrukcje stalowe – trwałość, precyzja i nowoczesne rozwiązania",
+        "description1":"Projektujemy i wykonujemy różnorodne konstrukcje stalowe dopasowane do potrzeb klientów – od elementów architektonicznych, przez ramy, po niestandardowe rozwiązania techniczne. Nasze realizacje cechuje wytrzymałość oraz estetyka wykonania.",
+        "description2":"Stosujemy materiały najwyższej jakości – stal nierdzewną, stal malowaną proszkowo oraz łączymy je z drewnem i szkłem, tworząc konstrukcje trwałe i funkcjonalne. Każde zlecenie realizujemy indywidualnie, dostosowując projekt do specyfiki inwestycji.",
+        "description3":"Zapewniamy kompleksową obsługę – od koncepcji, przez produkcję, aż po montaż na miejscu. Nasze konstrukcje stalowe łączą nowoczesność z solidnością wykonania.",
+        "questionTitle":"Dlaczego warto wybrać nasze konstrukcje stalowe?",
+        "example1":"Uniwersalne i wytrzymałe rozwiązania dla różnych zastosowań)",
+        "example2":"Materiały odporne na korozję i warunki atmosferyczne",
+        "example3":"Indywidualne projekty dostosowane do wymagań klienta",
+        "example4":"Łączenie stali z innymi materiałami – drewno, szkło, aluminium",
+        "example5":"Profesjonalny montaż na terenie Polski i za granicą",
+        "materialTitle":"Materiały premium",
+        "mateiralDescription":"Wszystkie konstrukcje wykonujemy z certyfikowanych materiałów: stali nierdzewnej 304/316, stali malowanej proszkowo, drewna dębowego, szkła hartowanego oraz elementów dekoracyjnych ciętych laserowo. Gwarantujemy trwałość i estetykę.",
+        "check":"Zobacz różnicę",
+        "before":"Przed",
+        "after":"Po",
+        "efectDescription":"Powyżej przykład przemiany starej konstrukcji stalowej w nowoczesny, solidny element architektoniczny, który łączy funkcjonalność z estetyką.",
+        "contactTitle":"Zaprojektuj swoją konstrukcję stalową z nami",
+        "contactDescription":"Potrzebujesz wytrzymałej i estetycznej konstrukcji stalowej? Skontaktuj się z nami, aby omówić szczegóły, przygotujemy indywidualny projekt i zadbamy o realizację na najwyższym poziomie.",
+        "contactButtonLabel":"Umów się na konsultację",
+        "realization":"Zrealizowane projekty innych konstrukcji stalowych"
+      }
+    }
+  },
+
+  "contactForm": {
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Envoyer"
+  },
+  "validation": {
+    "invalid": "Email invalide",
+    "required": "Nom requis",
+    "min": "Message requis pour être au moins 10 caractères"
+  },
+  "Cookies": {
+    "description": "Ta strona używa plików cookie, aby zapewnić Ci lepsze i bardziej trafne korzystanie ze strony. Klikając „Akceptuję”, wyrażasz zgodę na używanie plików cookie oraz akceptujesz naszą Politykę Prywatności.",
+    "title": "Zgoda na pliki cookie i Polityke prywatności",
+    "privacePolicy": "Polityka Prywatności",
+    "privacePolicyLink": "polityka-prywatnosci",
+    "decline": "Odrzucam",
+    "accept":"Akceptuje"
+  },
+  "NotFound": {
+    "description": "Strona, której szukasz, nie jest dostępna. Jeśli masz jakieś pytania, przejdź do strony kontaktowej i napisz do nas.",
+    "title": "Nie znaleziono strony.",
+    "button": "Skontaktuj się z nami"
+  },
+  "Categories": {
+    "titleMain": "Produkty - Stalumo",
+    "title": "Produkty Stalowe firmy Stalumo - ręczne rzemiosło",
+    "homeTitle": "Strona główna",
+    "empty": "Brak produktów",
+    "loadMore": "Załaduj więcej",
+    "loading": "Ładowanie...",
+    "description": "Odkryj unikalne, ręcznie wykonane produkty stalowe – solidne, stylowe i tworzone z pasją. Przeglądaj nasze kategorie i znajdź idealny dodatek do wnętrza lub ogrodu.",
+    "keywords": "produkty stalowe, ręcznie robione stalowe dekoracje, stalowe ozdoby, stal ręcznie wykonana, stalowe elementy wystroju, rękodzieło stalowe, stalowe meble, stalowe akcesoria, dekoracje ze stali, stal artystyczna, ręczna produkcja stali, stalowe dodatki do wnętrz"
+  },
+  "Products": {
+    "titleMain": "Kategorie produktów - Stalumo",
+    "title": "Produkty Stalowe - ręczne rzemiosło",
+    "productTitle":"Grill",
+    "homeTitle": "Strona główna",
+    "empty": "Brak produktów",
+    "loadMore": "Załaduj więcej",
+    "loading": "Ładowanie...",
+    "description": "Odkryj unikalne, ręcznie wykonane produkty stalowe – solidne, stylowe i tworzone z pasją. Przeglądaj nasze kategorie i znajdź idealny dodatek do wnętrza lub ogrodu.",
+    "keywords": "produkty stalowe, ręcznie robione stalowe dekoracje, stalowe ozdoby, stal ręcznie wykonana, stalowe elementy wystroju, rękodzieło stalowe, stalowe meble, stalowe akcesoria, dekoracje ze stali, stal artystyczna, ręczna produkcja stali, stalowe dodatki do wnętrz",
+    "checkProduct": "Zobacz produkt"
+  },
+
+  "PrivacyPolicy": {
+    "title": "Polityka Prywatności – stalumo.com",
+    "updated": "Data ostatniej aktualizacji: 01-07-2025",
+    "intro": "Twoja prywatność jest dla nas ważna. Niniejsza Polityka Prywatności wyjaśnia, jakie dane zbieramy, w jakim celu, kto jest ich administratorem i jakie masz prawa jako użytkownik strony stalumo.com. Podanie danych osobowych jest dobrowolne, ale może być konieczne do uzyskania odpowiedzi na zapytanie przesłane przez formularz kontaktowy.",
+    
+    "section1Title": "Administrator danych osobowych",
+    "section1Content": "Administratorem danych osobowych jest:\nStalumo\nul. Kolejowa 6\n73-220 Drawno\nPolska\nNIP: 5941613140\n📞 +48 784-532-549\n✉️ office@stalumo.com\nW celu realizacji swoich praw związanych z danymi osobowymi prosimy o kontakt mailowy. Odpowiadamy nie później niż w ciągu 30 dni.",
+    
+    "section2Title": "Jakie dane zbieramy?",
+    "section2aTitle": "a) Dane przesyłane przez formularz kontaktowy",
+    "section2aContent": "Imię (jeśli podane), adres e-mail, temat wiadomości, treść wiadomości. Dane te są wykorzystywane wyłącznie do obsługi zapytania i nie są przekazywane osobom trzecim bez uzasadnionej podstawy prawnej. Podanie danych jest dobrowolne, ale konieczne do uzyskania odpowiedzi.",
+    "section2bTitle": "b) Pliki cookies",
+    "section2bContent": "Nasza strona wykorzystuje pliki cookies, w tym pliki analityczne Google Analytics, które mogą zbierać m.in.: adres IP (zanonimizowany), dane o systemie operacyjnym i przeglądarce, informacje o aktywności na stronie. Zgoda na używanie cookies wyrażana jest po wejściu na stronę i może zostać cofnięta w ustawieniach przeglądarki.",
+    
+    "section3Title": "Cel przetwarzania danych",
+    "section3Content": "Zbierane dane wykorzystujemy w następujących celach: udzielenie odpowiedzi na zapytania, prowadzenie anonimowej analityki, poprawa strony i UX. Dane nie są wykorzystywane do zautomatyzowanego podejmowania decyzji ani profilowania.",
+    
+    "section4Title": "Podstawa prawna przetwarzania",
+    "section4Content": "Art. 6 ust. 1 lit. a RODO – zgoda użytkownika; lit. b – przetwarzanie niezbędne do kontaktu; lit. f – uzasadniony interes administratora (statystyka, bezpieczeństwo).",
+    
+    "section5Title": "Odbiorcy danych",
+    "section5Content": "Hosting, Google LLC (Analytics – dane zanonimizowane), organy publiczne (jeśli wymagane). Dane mogą być także przetwarzane przez podmioty zewnętrzne na podstawie umowy powierzenia przetwarzania, np. dostawcę usług hostingowych lub firmę IT.",
+    
+    "section6Title": "Czas przechowywania danych",
+    "section6Content": "Formularz: 6 miesięcy; Analityka: 14 miesięcy; Cookies: do usunięcia przez użytkownika. Dane będą przechowywane nie dłużej, niż jest to konieczne do realizacji celu przetwarzania lub zgodnie z obowiązującym prawem.",
+    
+    "section7Title": "Twoje prawa",
+    "section7Content": "Masz prawo do: dostępu do danych, ich poprawiania, usunięcia, ograniczenia przetwarzania, wniesienia sprzeciwu, przeniesienia danych oraz złożenia skargi do Prezesa Urzędu Ochrony Danych Osobowych (UODO). W celu realizacji tych praw prosimy o kontakt mailowy na adres: office@stalumo.com.",
+    
+    "section8Title": "Cookies i technologie śledzące",
+    "section8Content": "Używamy cookies do: działania strony, statystyk (Analytics), poprawy komfortu. Można je wyłączyć w ustawieniach przeglądarki. Pliki cookies mogą być również stosowane przez zewnętrznych dostawców, z którymi współpracujemy (np. Google).",
+    
+    "section9Title": "Zmiany w polityce",
+    "section9Content": "Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. Aktualna wersja dokumentu jest zawsze dostępna na stronie stalumo.com/polityka-prywatnosci.",
+    
+    "contactNote": "Masz pytania? Napisz do nas na: office@stalumo.com",
+    
+    "section10Title": "Google Analytics i zgoda na cookies",
+    "section10Content": "Na naszej stronie korzystamy z Google Analytics 4, narzędzia analitycznego firmy Google LLC. Służy ono do anonimowego analizowania sposobu korzystania ze strony. Dane zbierane przez GA mogą obejmować zanonimizowany adres IP, informacje o systemie operacyjnym, przeglądarce oraz zachowaniu na stronie.\n\nDomyślnie, przed wyrażeniem zgody przez użytkownika, usługa Google Analytics nie przechowuje danych (analytics_storage: 'denied'). Śledzenie rozpoczyna się dopiero po uzyskaniu zgody za pośrednictwem banera cookies. Użytkownik może w każdej chwili wycofać zgodę, zmieniając ustawienia przeglądarki lub klikając ponownie w baner cookies (jeśli dostępny).\n\nW przypadku przekazywania danych do Google LLC (USA), stosowane są standardowe klauzule umowne zatwierdzone przez Komisję Europejską, zgodnie z art. 46 RODO.\n\nWięcej informacji:\n- Polityka prywatności Google: https://policies.google.com/privacy\n- Warunki Google Analytics: https://marketingplatform.google.com/about/analytics/terms/pl/\n- Standardowe klauzule umowne: https://support.google.com/analytics/answer/9012600"
+  }
+  
+
+
+
+}

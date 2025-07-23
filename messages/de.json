@@ -1,0 +1,410 @@
+{
+  "HomePage": {
+    "AboutUs": {
+      "title": "Schweißkunst, die Exzellenz schmiedet",
+      "subTitle": "ÜBER UNS",
+      "description": "Wir sind ein Team von Spezialisten, die nicht nur perfekt schweißen können, sondern auch eine tiefe Leidenschaft für das Handwerk haben. Unsere zehnjährige Erfahrung ermöglicht es uns, den Weg der Exzellenz mit Zuversicht zu beschreiten.<br/><br/> Jedes Projekt ist eine Herausforderung, die wir mit Entschlossenheit angehen, um unseren Kunden nicht nur ein Produkt von höchster Qualität zu liefern, sondern auch Zufriedenheit und die Gewissheit, dass ihre Erwartungen übertroffen wurden.",
+      "button": "Mehr über uns",
+      "count": "Abgeschlossene Projekte"
+    },
+    "Excellence": {
+      "title": "Stahlbau in Deutschland und Polen",
+      "subTitle": "Perfekte Ausführung",
+      "description": "Unsere Arbeit ist nicht nur perfekte Ausführung, sondern auch Leidenschaft und Engagement, die immer zur Exzellenz führen. Wir fertigen Stahlkonstruktionen in Polen und in allen Regionen Deutschlands.",
+      "button": "Kostenloses Angebot anfordern"
+    },
+    "Faq": {
+      "title": "WAS DU WISSEN SOLLTEST",
+      "question1": "Können Sie Geländer und Zäune nach meinen individuellen Bedürfnissen entwerfen?",
+      "answer1": "Natürlich! Unser Designteam ist auf die Erstellung maßgeschneiderter Lösungen spezialisiert, die perfekt zu Ihren Anforderungen und Vorlieben passen. Egal, ob Sie ein Geländer mit einer ungewöhnlichen Form oder ein einzigartiges Zaunmuster benötigen – wir setzen Ihre Ideen um.",
+      "question2": "Kann ich eine Beratung zur Auswahl der richtigen Lösung für meinen Raum erhalten?",
+      "answer2": "Selbstverständlich! Unser Expertenteam steht Ihnen in jeder Phase des Prozesses mit fachkundiger Beratung zur Seite. Vom ersten Kontakt bis zur Endmontage sind wir für Sie da, um Ihre Fragen zu beantworten, unser Wissen zu teilen und Ihnen die beste Lösung für Ihr Zuhause oder Ihren Garten zu empfehlen.",
+      "question3": "Bieten Sie Montageservices an?",
+      "answer3": "Ja, umfassender Service ist unser Standard. Unser erfahrenes Montageteam sorgt für eine professionelle und präzise Installation aller Bauelemente, sodass Ihre Geländer, Zäune oder Treppen nach höchsten Standards montiert werden.",
+      "question4": "Welche Vorteile bieten Geländer und Zäune Ihres Unternehmens?",
+      "answer4": "Mit unseren Produkten erhalten Sie nicht nur ästhetische und stabile Konstruktionen, sondern auch eine Qualitätsgarantie. Unsere Geländer, Zäune und weiteren Bauelemente sind mit Blick auf Langlebigkeit und Funktionalität konzipiert, sodass sie nicht nur eine attraktive Ergänzung Ihres Raums, sondern auch eine nachhaltige Investition darstellen.",
+      "question5": "Sind Ihre Konstruktionen pflegeleicht?",
+      "answer5": "Ja, wir setzen auf Langlebigkeit und einfache Wartung. Je nach gewähltem Material und Finish erfordern die meisten unserer Konstruktionen nur minimale Pflege, sodass Sie sie jahrelang genießen können, ohne sich um aufwendige Wartungsarbeiten kümmern zu müssen.",
+      "question6": "Geben Sie Garantie auf Ihre Produkte und Dienstleistungen?",
+      "answer6": "Ja, wir bieten Garantie auf all unsere Produkte und Montagedienstleistungen. Unser Ziel ist es, unsere Kunden vollkommen zufriedenzustellen, daher legen wir nicht nur Wert auf höchste Qualität, sondern auch auf einen umfassenden After-Sales-Service. Falls Probleme mit unseren Produkten oder Dienstleistungen auftreten, sind wir bereit, geeignete Maßnahmen zur Lösung zu ergreifen.",
+      "question7": "Wie viel kostet das Schweißen von Stahlkonstruktionen?",
+      "answer7": "Der Preis hängt vom Material, Design und Arbeitsumfang ab. Kontaktieren Sie uns für ein kostenloses Angebot.",
+      "question8": "Welche Arten von Stahlzäunen bieten Sie an?",
+      "answer8": "Wir bieten Paneelzäune, Schmiedezäune und pulverbeschichtete Stahlzäune, die Ihren Anforderungen entsprechen.",
+      "question9": "Stellen Sie maßgeschneiderte Schiebe- und Flügeltore her?",
+      "answer9": "Ja, wir fertigen individuell gestaltete Stahltore, die zu Ihrem Grundstück passen.",
+      "question10": "Welche Korrosionsschutzmaßnahmen verwenden Sie?",
+      "answer10": "Wir verwenden Feuerverzinkung und Pulverbeschichtung, um die Langlebigkeit des Stahls zu gewährleisten.",
+      "question11": "Wie kann ich Geländer oder Stahlzäune bestellen?",
+      "answer11": "Kontaktieren Sie uns, nennen Sie Maße und Erwartungen, und wir erstellen Ihnen ein individuelles Angebot.",
+        "cta": "Frage stellen",
+        "ctaTitle": "Keine Antwort auf Ihre Frage gefunden?",
+        "contactDescription": "Kontaktieren Sie uns – wir antworten schnell und beraten Sie gerne mit der besten Lösung."
+      
+      
+    },
+    "OurProcess": {
+      "title": "DIE BESTE ERFAHRUNG IN DER UMSETZUNG",
+      "subTitle": "UNSER PROZESS",
+      "description": "Unser Auftragsabwicklungsprozess garantiert höchste Qualität und Professionalität in jeder Phase. Durch eine sorgfältige Beratung, präzise Produktion und eine akkurate Montage bieten wir unseren Kunden ein unvergleichliches Erlebnis, das selbst die höchsten Erwartungen erfüllt.<br/><br/> Unsere Leidenschaft für Perfektion ist der Schlüssel zum Erfolg jedes Projekts.",
+      "button": "Kontakt aufnehmen",
+      "count1": "Beratung & Design",
+      "count1description": "Wir beginnen mit einer detaillierten Beratung, um Ihre Bedürfnisse und Wünsche zu verstehen. Anschließend erstellen wir ein individuelles Design.",
+      "count2": "Produktion & Schweißen",
+      "count2description": "Nach der Projektfreigabe gehen wir in die Produktion und das Schweißen über. Unsere erfahrenen Teams gewährleisten höchste Qualität und Präzision.",
+      "count3": "Montage & Lieferung",
+      "count3description": "Nach der Produktion liefern wir die bestellten Elemente an den Standort und montieren sie sorgfältig, wobei wir auf jedes Detail achten."
+    },
+    "OurServices": {
+      "title": "VERBINDUNGEN SCHMIEDEN. FORTSCHRITT ENTZÜNDEN.",
+      "subTitle": "Unsere Dienstleistungen",
+      "count1": "Schweißen von Geländern und Zäunen",
+      "count1description": "Dank unserer Schweißexpertise fertigen wir Geländer und Zäune mit außergewöhnlicher Haltbarkeit und Ästhetik. Unabhängig vom Projekt liefern wir robuste und elegante Lösungen, die Ihren Raum aufwerten.",
+      "count2": "Maßgeschneiderte Metallkonstruktionen",
+      "count2description": "Benötigen Sie eine maßgeschneiderte Metallkonstruktion? Unser Expertenteam kann genau das entwerfen und fertigen, was Sie brauchen. Ob Windmühle, Werberahmen oder architektonisches Element – wir garantieren höchste Qualität und Präzision.",
+      "count3": "Schweißen von Treppen und Balkonen",
+      "count3description": "Mit unserer Erfahrung und Schweißkompetenz fertigen wir Treppen und Balkone, die nicht nur optisch ansprechend sind, sondern auch langfristige Sicherheit und Haltbarkeit bieten.",
+      "count4": "Wintergärten und Erholungsräume",
+      "count4description": "Träumen Sie von einem einzigartigen Wintergarten oder Erholungsbereich? Wir realisieren Ihre Vision und schaffen geschweißte Konstruktionen, die zum Mittelpunkt der Entspannung und Unterhaltung für Sie und Ihre Familie werden.",
+      "count5": "Montage und Installation",
+      "count5description": "Sie müssen sich keine Sorgen um die Montage unserer Konstruktionen machen – unsere qualifizierten Techniker übernehmen das für Sie. Mit unserer professionellen Herangehensweise und Liebe zum Detail stellen wir sicher, dass alles nach höchsten Standards installiert wird.",
+      "count6": "Beratung und Planung",
+      "count6description": "Brauchen Sie Unterstützung bei der Auswahl der besten Lösung für Ihr Projekt? Unser Team aus Beratern und Designern steht Ihnen mit fachkundiger Unterstützung zur Seite und hilft Ihnen, die passenden Materialien, Konstruktionen und technischen Lösungen zu finden, die Ihren Erwartungen und Anforderungen entsprechen."
+    },
+    "Realization": {
+      "title": "Abgeschlossene Aufträge unserer Kunden",
+      "subTitle": "Realisierungen",
+      "count1": "Geländer",
+      "count1description": "Sichere Geländer, Eleganz in jedem Detail.",
+      "count2": "Tore",
+      "count2description": "Moderne Tore, Sicherheit und Stil.",
+      "count3": "Angebaute Balkone",
+      "count3description": "Erweiterte Räume – angebaute Balkone.",
+      "count4": "Zäune",
+      "count4description": "Robuste Zäune, Ihre Privatsphäre vollständig geschützt."
+    },
+    "Stats": {
+      "hours": "Expertenstunden",
+      "clients": "Zufriedene Kunden",
+      "projects": "Abgeschlossene Projekte"
+    },
+    "Steps": {
+      "quality": "Qualität der Ausführung",
+      "qualityDescription": "Hervorragende Präzision und Sorgfalt stehen bei uns an erster Stelle. Jedes Detail wird mit höchster Qualität verarbeitet, um die Zufriedenheit unserer Kunden zu gewährleisten.",
+      "apply": "Zertifikate und Konformität",
+      "applyDescription": "Wir verwenden ausschließlich Materialien von höchster Qualität, die den neuesten Standards entsprechen und zertifiziert sind, um Qualität und Sicherheit zu gewährleisten.",
+      "price": "Konkurrenzfähige Preise",
+      "priceDescription": "Wir bieten wettbewerbsfähige Preise unabhängig vom Projektumfang, ohne Kompromisse bei der Qualität. Unser Ziel ist es, wertvolle Dienstleistungen zu fairen Preisen anzubieten.",
+      "expierience": "<br />Jahrelange <br /> Erfahrung",
+      "expierienceDescription": "Mit über zehn Jahren Erfahrung in der Branche haben wir uns einen soliden Ruf erarbeitet, das Vertrauen der Kunden gewonnen und umfangreiche Fachkenntnisse entwickelt.",
+      "button": "Kontaktieren Sie uns"
+    },
+    "VisionMission": {
+      "title": "Unsere Vision und Mission: Starke Verbindungen und Innovative Lösungen Schaffen",
+      "subTitle": "Vision und Mission",
+      "description": "Wir setzen uns für Qualität und Präzision in unserer Arbeit ein. Wir schaffen nicht nur Zäune, Tore und Geländer, sondern bauen auch dauerhafte Beziehungen zu unseren Kunden auf. Unsere Mission besteht darin, nicht nur Sicherheit und Ästhetik zu gewährleisten, sondern auch volle Zufriedenheit und Vertrauen.",
+      "sentence": "Ihr solides Fundament, ",
+      "sentencePart": "Ihre ästhetische Vision.",
+      "missionTitle": "Unsere Mission",
+      "missionDescription": "Wir setzen mit Zuversicht auf Qualität und Präzision, schaffen nicht nur Zäune, Tore und Geländer, sondern auch dauerhafte Bindungen zu unseren Kunden. Unsere Mission ist es, nicht nur Sicherheit und Ästhetik zu gewährleisten, sondern auch Zufriedenheit und Vertrauen.",
+      "visionTitle": "Unsere Vision",
+      "visionDescription": "Wir stellen uns eine Welt vor, in der unsere Produkte nicht nur architektonische Elemente, sondern auch Symbole für Solidität und Stil sind. Unsere Vision umfasst inspirierende Räume, die Menschen verbinden und zu ständigem Fortschritt und Entwicklung anregen."
+    }
+  },
+  "Header": {
+    "contact": "Zur Kontaktseite",
+    "gallery": "Projekte",
+    "about": "Über uns",
+    "home": "Heim",
+    "blog": "Blog",
+      "offer":"Angebot"
+  },
+  "Footer": {
+    "location": "Standort",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "country": "Drawno, Polen",
+    "copy": "2025 © Alle Rechte vorbehalten",
+    "PrivacyPolicyTitle": "Datenschutzrichtlinie – stalumo.com"
+  },
+  "Blog": {
+    "titleMain": "Blog - Stalumo",
+    "title": "Blog - Stalumo alles rund um Stahlkonstruktionen",
+    "homeTitle": "Startseite",
+    "empty": "Keine Beiträge",
+    "loadMore": "Mehr laden",
+    "loading": "Lädt...",
+    "description": "Entdecken Sie unseren Blog über Schweißen, Tore, Garagen und Geländer. Finden Sie praktische Tipps und Informationen über Stahlkonstruktionen in Deutschland und Polen.",
+    "keywords": "Zaunproduktion, Schweißen, Stahlkonstruktionen, Schweißblog, Stahlkonstruktionen Deutschland"
+  },
+  "About": {
+    "title": "Über uns",
+    "homeTitle": "Startseite",
+    "descriptionTitle": "Professionelles Schweißen und Metallprodukte auf dem polnischen und deutschen Markt",
+    "description": "Willkommen bei Stalumo – ein Unternehmen, das sich für Metall begeistert und sich der Exzellenz verpflichtet. Mit über 10 Jahren Erfahrung auf dem polnischen und deutschen Markt sind wir stolz auf unseren Ruf als zuverlässiger Partner in der Metallindustrie. <br /> <br /> Seit unserer Gründung im Jahr 2010 streben wir ständig danach, die Qualitäts- und Professionalitätsstandards in unserer Arbeit zu erhöhen. Unsere Dienstleistungen umfassen ein breites Spektrum an Tätigkeiten, von Schweißarbeiten bis hin zur Produktion von Toren, Zäunen, Geländern, Balkonen, Überdachungen und Wintergärten – immer mit Liebe zum Detail und präziser Ausführung. <br /> <br /> Wir sind überzeugt, dass unsere Produkte und Dienstleistungen nicht nur durch ihre hervorragende Qualität, sondern auch durch ihre Flexibilität und individuelle Herangehensweise an die Bedürfnisse der Kunden herausragen. Jede Bestellung betrachten wir als einzigartig und passen unsere Lösungen an die spezifischen Anforderungen an, um die Zufriedenheit selbst der anspruchsvollsten Kunden zu garantieren. <br /> <br /> Was zeichnet uns aus? Neben unserem Engagement, Produkte von höchster Qualität zu liefern, sind wir auch ein eingespieltes Team von Fachleuten, das bereit ist, selbst die komplexesten Herausforderungen anzunehmen. Unser Unternehmen besteht aus qualifizierten Spezialisten, für die Metallprodukte nicht nur Arbeit, sondern wahre Leidenschaft sind. <br /> <br /> Wir sind nicht nur in Polen tätig, sondern auch in Deutschland, was es uns ermöglicht, unsere Reichweite zu erweitern und unsere Produkte und Dienstleistungen auch Kunden im Ausland anzubieten. Unsere Präsenz auf zwei Märkten ermöglicht es uns auch, uns kontinuierlich weiterzuentwickeln und unsere Fähigkeiten zu verbessern, um den sich verändernden Bedürfnissen unserer Kunden gerecht zu werden. <br /> <br /> Wenn Sie einen professionellen Partner in der Metallbranche suchen, der Ihnen nicht nur Produkte von hoher Qualität, sondern auch umfassenden Service und Unterstützung in jeder Phase Ihres Projekts bietet – Stalumo ist die perfekte Wahl für Sie. Schließen Sie sich unseren zufriedenen Kunden an und überzeugen Sie sich selbst, warum Stalumo eine Garantie für Zuverlässigkeit, Qualität und Professionalität ist. <br /> <br />",
+  "timeLineHeader": "Wie läuft die Zusammenarbeit mit STALUMO ab?",
+  "ctaTitle": "Interesse an einer Zusammenarbeit?",
+"ctaDescription": "Kontaktieren Sie uns für ein Angebot, einen Aufmaßtermin oder um mehr über unser Zaunangebot zu erfahren.",
+
+    "buttonContact":"Wir laden Sie ein, mit uns zusammenzuarbeiten!",
+  "timeLineTitleContact": "Kontakt & Angebot",
+  "timeLineTitleSize": "Aufmaß & Planung",
+  "timeLineTitleProduction": "Produktion",
+  "timeLineTitleMake": "Montage vor Ort",
+  "timeLineTitleWarranty": "Qualität & Support",
+
+  "timeLineDescriptionContact": "Kontaktieren Sie uns über das Formular, telefonisch oder per E-Mail. Basierend auf den übermittelten Informationen erstellen wir ein kostenloses, unverbindliches Angebot und beantworten alle Ihre Fragen zur Umsetzung.",
+  
+  "timeLineDescriptionSize": "Unser Spezialist wird sich mit Ihnen in Verbindung setzen, um einen Termin für das Aufmaß vor Ort zu vereinbaren. So können wir eine Lösung entwerfen, die perfekt auf Ihre Anforderungen und die technischen Gegebenheiten abgestimmt ist.",
+  
+  "timeLineDescriptionProduction": "In der Produktionsphase verwenden wir ausschließlich bewährte Technologien und hochwertigen Stahl. Jedes Element wird präzise gefertigt, um eine langlebige, funktionale und ästhetisch ansprechende Konstruktion zu gewährleisten.",
+  
+  "timeLineDescriptionMake": "Nach Abschluss der Produktion montiert unser erfahrenes Team die Konstruktion direkt bei Ihnen vor Ort. Wir legen Wert auf Sauberkeit, Genauigkeit und Termintreue für einen reibungslosen und professionellen Ablauf.",
+  
+  "timeLineDescriptionWarranty": "Unsere Produkte durchlaufen eine strenge Qualitätskontrolle, um höchste Verarbeitungsqualität zu garantieren. Zusätzlich bieten wir umfassenden Support nach dem Kauf, damit Sie sich jederzeit auf unsere Hilfe und Beratung verlassen können."
+
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie uns",
+    "homeTitle": "Startseite",
+    "description": "Haben Sie ein Projekt im Kopf? Kontaktieren Sie uns über das Kontaktformular, und wir antworten so schnell wie möglich. Wir helfen Ihnen gerne dabei, Ihre Idee umzusetzen und garantieren fachkundige Unterstützung sowie höchste Ausführungsqualität. Wir freuen uns auf Ihre Fragen und Vorschläge – gemeinsam schaffen wir etwas Einzigartiges!",
+    "button": "Nachricht senden",
+    "topic": "Thema",
+    "email": "E-Mail-Adresse",
+    "content": "Worüber möchten Sie uns fragen?",
+    "loading": "Lädt...",
+    "success": "Die Nachricht wurde erfolgreich gesendet. Wir werden so schnell wie möglich an die angegebene E-Mail-Adresse antworten.",
+    "error": "Etwas ist schiefgelaufen",
+    "privacy": "Mit dem Absenden einer Nachricht über das Kontaktformular erklärst du dich mit der Verarbeitung deiner personenbezogenen Daten gemäß unserer ",
+    "PrivacyPolicyTitle": "Datenschutzrichtlinie – stalumo.com",
+    "form": {
+  "category": "Kategorie",
+  "project": "Haben Sie ein Projekt?",
+  "quantity": "Menge (lfm / Stk. / m² – im Beschreibungstext präzisieren oder Konstruktionsmaße angeben)",
+  "assembly": "Montageservice",
+  "phone": "Telefonnummer",
+  "date": "Bevorzugter Starttermin",
+  "yes": "Ja",
+  "no": "Nein",
+  "withInstallation": "Mit Montage",
+  "noInstallation": "Ohne Montage",
+  "select": "Auswählen...",
+  "balustrades": "Geländer",
+  "gates": "Tore",
+  "fences": "Zäune",
+  "wickets": "Pforten",
+  "structures": "Andere Stahlkonstruktionen",
+  "summary": {
+    "category": "Kategorie",
+    "project": "Projekt vorhanden?",
+    "quantity": "Menge",
+    "assembly": "Montage",
+    "phone": "Telefonnummer",
+    "date": "Startdatum"
+  }
+}
+
+  },
+  "Gallery": { "title": "Projekte", "homeTitle": "Startseite",
+"cta":"Melden Sie sich – wir beraten und erstellen ein Angebot",
+    "ctaTitle":"Moderne Geländer und Stahlzäune, Tore und Stahlkonstruktionen | STALUMO",
+    "contactDescription":"Modern steel railings, fences, gates and steel structures | STALUMO"
+},
+  "Offer": {
+  "homeTitle":"Startseite",
+  "title": "Angebot",
+  "fences":"Zäune",
+  "wickets":"Tore",
+  "other-steel-structures":"Andere Stahlkonstruktionen",
+  "subtitle": "Entdecken Sie unsere Stahlprodukte",
+  "railings": "Geländer",
+  "gates": "Tore",
+  "structures": "Konstruktionen",
+  "roofs": "Überdachungen",
+  "other": "Sonstiges",
+  "descriptionPage":{
+    "category":"Kategorie: ",
+    "railings": {
+      "titleCategory":"Stahlgeländer",
+      "header":"Stahlgeländer – Haltbarkeit, Stil und Sicherheit",
+      "description1":"Unsere Stahlgeländer zeichnen sich durch Präzision, Materialien höchster Qualität und modernes Design aus. Sie wurden mit Blick auf Funktionalität und Sicherheit entworfen und behalten dabei ein zeitloses Erscheinungsbild. Geeignet für Wohn- und Gewerberäume – von Balkonen und Terrassen bis zu Treppen und Mezzaninen.",
+      "description2":"Wir verwenden Edelstahl, pulverbeschichteten schwarzen Stahl oder kombinieren verschiedene Materialien für einzigartige Effekte – wie Holz, Glas oder laser­geschnittene Paneele. Jedes Projekt ist individuell abgestimmt auf Architektur und Kundenvorstellungen.",
+      "description3":"Die Zusammenarbeit mit uns garantiert Haltbarkeit, Stil und hochwertige Ausführung. Kontaktieren Sie uns, und wir entwerfen ein Geländer, das Teil Ihres Raumes wird.",
+      "questionTitle":"Warum unsere Geländer?",
+      "example1":"Hohe Wetterbeständigkeit (Edelstahl & pulverbeschichtet)",
+      "example2":"Kombination mit Holz, Glas, laser­ge­schnittener Masche möglich",
+      "example3":"Ideal für Balkone, Treppen, Mezzanine & Gewerberäume",
+      "example4":"Maßgeschneidertes Design passend zu Architektur & Wunsch",
+      "example5":"Montage in ganz Polen und im Ausland",
+      "materialTitle":"Premium-Materialien",
+      "mateiralDescription":"Wir verwenden ausschließlich zertifizierte Materialien. Unsere Geländer bestehen hauptsächlich aus Edelstahl 304/316, für modernen Kontrast auch aus pulverbeschichtetem schwarzem Stahl. Auf Wunsch integrieren wir Elemente aus naturbelassenem Eichenholz, Einscheibensicherheitsglas und CNC-Dekordetails.",
+      "check":"Sehen Sie den Unterschied",
+      "before":"Vorher",
+      "after":"Nachher",
+      "efectDescription":"Oben zeigen wir das Ergebnis eines unserer Projekte: Ein Balkon in einem Einfamilienhaus wurde von einer veralteten, unsicheren Konstruktion zu einem eleganten Edelstahlgeländer mit Holzelementen umgestaltet.",
+      "contactTitle":"Gestalten Sie Ihr Geländer mit uns",
+      "contactDescription":"Kontaktieren Sie uns für ein individuelles Angebot und eine Visualisierung Ihres neuen Geländers. Wir beraten Sie zu Materialien und Stil passend zu Ihrem Innenraum oder Ihrer Fassade.",
+      "contactButtonLabel":"Beratung vereinbaren",
+      "realization":"Abgeschlossene Geländerprojekte"
+    },
+    "fences": {
+      "titleCategory":"Zäune",
+      "header":"Stahlzäune – Schutz und Ästhetik in Einem",
+      "description1":"Unsere Stahlzäune verbinden ideal Sicherheit, Haltbarkeit und Eleganz. Aus hochwertigem Stahl gefertigt, schützen sie Ihr Grundstück und verschönern es zugleich. Wir bieten moderne und klassische Designs, abgestimmt auf Haus und Umgebung.",
+      "description2":"Wir setzen pulverbeschichteten schwarzen Stahl, Edelstahl und Schmiedeelemente ein. Auf Wunsch kombinierbar mit Holz, perforierten Blechen oder laser­geschnittenen Paneelen.",
+      "description3":"Jeder Zaun wird individuell nach Kundenwünschen gefertigt. Unser Team bietet umfassenden Service von Planung bis Montage.",
+      "questionTitle":"Warum unsere Zäune?",
+      "example1":"Langlebigkeit & Korrosionsschutz durch Pulverbeschichtung",
+      "example2":"Große Auswahl an Designs, Farben & Füllungen (Blech, Holz, Stahlgeflecht)",
+      "example3":"Abgestimmt auf modernen oder klassischen Architekturstil",
+      "example4":"Rundum-Service – Vermessung, Planung, Produktion & Montage",
+      "example5":"Integration mit Schiebe- oder Dreh­toren möglich",
+      "materialTitle":"Premium-Materialien",
+      "mateiralDescription":"Wir verwenden nur zertifizierte Materialien: feuerverzinkter pulverbeschichteter Stahl, Edelstahl, perforierte Bleche sowie Eichen- oder Lärchenholz. Wir garantieren Ästhetik, Haltbarkeit und perfekte Verarbeitung.",
+      "check":"Sehen Sie den Unterschied",
+      "before":"Vorher",
+      "after":"Nachher",
+      "efectDescription":"Oben sehen Sie die Modernisierung eines alten Maschendrahtzauns. Wir ersetzten ihn durch einen modernen Stahlpaneelzaun mit Pulverbeschichtung – das verbesserte sowohl die Optik als auch die Sicherheit der Immobilie.",
+      "contactTitle":"Gestalten Sie Ihren Zaun mit uns",
+      "contactDescription":"Kontaktieren Sie uns, um einen Zaun exakt nach Ihren Wünschen zu gestalten. Wir bieten fachkundige Beratung, Vermessung und umfassende Projektumsetzung.",
+      "contactButtonLabel":"Beratung vereinbaren",
+      "realization":"Abgeschlossene Zaunprojekte"
+    },
+    "gates": {
+      "titleCategory":"Tore",
+      "header":"Tore – Funktionalität, Ästhetik und Sicherheit",
+      "description1":"Wir bieten moderne Tore für jedes Grundstück – von minimalistischen Modellen bis hin zu dekorativen Konstruktionen mit Holz oder laser­ge­schnittenen Elementen. Qualität, Langlebigkeit und optische Harmonie stehen im Fokus.",
+      "description2":"Wir realisieren individuelle Projekte einschließlich Schiebetoren, Doppelflügeltoren und automatischen Toren. Materialien höchster Qualität – Edelstahl, pulverbeschichteter Stahl, Holz und Glas. Jedes Tor vereint Ästhetik und moderne Technik.",
+      "description3":"Wir achten auf jedes Detail – von Planung über Produktion bis zur professionellen Montage. Unsere Tore präsentieren das Grundstück und gewährleisten langjährigen Schutz.",
+      "questionTitle":"Warum unsere Tore?",
+      "example1":"Moderne und klassische Designs",
+      "example2":"Volle Automatisierung – Tore mit Antrieb",
+      "example3":"Individuelle Projekte passend zur Umgebung",
+      "example4":"Langlebige Materialien – Stahl, Holz, Glas, Aluminium",
+      "example5":"Komplette Montage in Polen und im Ausland",
+      "materialTitle":"Premium-Materialien",
+      "mateiralDescription":"Alle unsere Tore bestehen aus zertifizierten Materialien: Edelstahl, pulverbeschichteter Stahl, Eichenholz, Aluminium und Einscheibensicherheitsglas. Wir bieten auch dekorative Elemente in Laser­schnitt und individuelle Oberflächen nach Kundenwunsch.",
+      "check":"Sehen Sie den Unterschied",
+      "before":"Vorher",
+      "after":"Nachher",
+      "efectDescription":"Oben ein Beispiel für den Austausch eines alten Doppelflügeltors gegen ein modernes automatisches Schiebetor mit dekorativer laser­ge­schnittenem Paneel. Es zeigt, wie ein Tor das Erscheinungsbild einer Immobilie komplett verändern kann.",
+      "contactTitle":"Gestalten Sie Ihr Tor mit uns",
+      "contactDescription":"Brauchen Sie ein funktionales und schönes Tor? Kontaktieren Sie uns – wir erstellen ein individuelles Projekt, beraten zu den besten Lösungen und übernehmen jeden Schritt.",
+      "contactButtonLabel":"Beratung vereinbaren",
+      "realization":"Abgeschlossene Torprojekte"
+    },
+    "otherstell": {
+      "titleCategory":"Andere Stahlkonstruktionen",
+      "header":"Andere Stahlkonstruktionen – Haltbarkeit, Präzision und moderne Lösungen",
+      "description1":"Wir planen und fertigen verschiedene Stahlkonstruktionen nach Kundenwunsch – von architektonischen Elementen und Rahmen bis hin zu technischen Sonderlösungen. Unsere Projekte überzeugen durch Haltbarkeit und ästhetische Verarbeitung.",
+      "description2":"Wir verwenden Materialien höchster Qualität – Edelstahl, pulverbeschichteter Stahl, kombiniert mit Holz und Glas – so entstehen langlebige und funktionale Konstruktionen. Jedes Projekt wird individuell auf das Bauvorhaben abgestimmt.",
+      "description3":"Wir bieten umfassenden Service – von Konzept bis Produktion und Baustellen­montage. Unsere Stahlkonstruktionen vereinen Modernität und solide Handwerkskunst.",
+      "questionTitle":"Warum unsere Stahlkonstruktionen?",
+      "example1":"Vielseitige und robuste Lösungen für unterschiedliche Anwendungen",
+      "example2":"Korrosions- und wetterbeständige Materialien",
+      "example3":"Individuelle Entwürfe nach Kundenanforderungen",
+      "example4":"Kombination von Stahl mit Holz, Glas, Aluminium",
+      "example5":"Professionelle Montage in Polen und im Ausland",
+      "materialTitle":"Premium-Materialien",
+      "mateiralDescription":"Alle Konstruktionen fertigen wir aus zertifizierten Materialien: Edelstahl 304/316, pulverbeschichteter Stahl, Eichenholz, Einscheibensicherheitsglas und laser­ge­schnittene Dekorelemente. Wir garantieren Haltbarkeit und Ästhetik.",
+      "check":"Sehen Sie den Unterschied",
+      "before":"Vorher",
+      "after":"Nachher",
+      "efectDescription":"Oben ein Beispiel für die Umwandlung einer alten Stahlkonstruktion in ein modernes, solides architektonisches Element, das Funktionalität und Ästhetik vereint.",
+      "contactTitle":"Gestalten Sie Ihre Stahlkonstruktion mit uns",
+      "contactDescription":"Sie benötigen eine langlebige und ästhetische Stahlkonstruktion? Kontaktieren Sie uns für ein individuelles Projekt – wir setzen es auf höchstem Niveau um.",
+      "contactButtonLabel":"Beratung vereinbaren",
+      "realization":"Abgeschlossene Projekte anderer Stahlkonstruktionen"
+    }
+  }
+},
+
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Abschicken"
+  },
+  "validation": {
+    "invalid": "Email ungültig",
+    "required": "Name erforderlich",
+    "min": "Message erforderlich, um mindestens 10 Zeichen zu sein"
+  },
+  "Cookies": {
+    "description": "Diese Website verwendet Cookies, um dir eine bessere und relevantere Nutzung der Seite zu ermöglichen. Durch Klicken auf „Akzeptieren“ stimmst du der Verwendung von Cookies zu und akzeptierst unsere Datenschutzrichtlinie.",
+    "title": "Einwilligung zu Cookies",
+    "privacePolicy": "Datenschutzrichtlinie",
+    "privacePolicyLink":"datenschutzrichtlinie",
+    "decline": "Ablehnen",
+    "accept":"Akzeptieren"
+  },
+  "NotFound": {
+ "description": "Die Seite, die Sie suchen, ist nicht verfügbar. Wenn Sie Fragen haben, besuchen Sie bitte die Kontaktseite und schreiben Sie uns.",
+  "title": "Diese Seite konnte nicht gefunden werden.",
+    "button": "Kontaktieren Sie uns"
+  },
+  "Categories": {
+  "titleMain": "Produktkategorien – Stalumo",
+  "title": "Stahlprodukte von Stalumo – Handgefertigtes Kunsthandwerk",
+  "homeTitle": "Startseite",
+  "empty": "Keine Produkte verfügbar",
+  "loadMore": "Mehr laden",
+  "loading": "Wird geladen...",
+  "description": "Entdecken Sie einzigartige, handgefertigte Stahlprodukte – robust, stilvoll und mit Leidenschaft gefertigt. Stöbern Sie in unseren Kategorien und finden Sie das perfekte Accessoire für Ihr Zuhause oder Ihren Garten.",
+  "keywords": "Stahlprodukte, handgefertigte Stahldekorationen, Stahlornamente, handgearbeiteter Stahl, Stahlelemente für Innenräume, Stahlhandwerk, Stahlmöbel, Stahlzubehör, Stahldekor, künstlerischer Stahl, handgefertigte Stahlwaren, Stahlakzente für Innenräume"
+},
+"Products": {
+  "titleMain": "Produktkategorien – Stalumo",
+  "title": "Stahlprodukte – Handgefertigtes Kunsthandwerk",
+  "homeTitle": "Startseite",
+  "empty": "Keine Produkte verfügbar",
+  "loadMore": "Mehr laden",
+  "loading": "Wird geladen...",
+  "productTitle":"Grill",
+  "checkProduct": "Produkt ansehen",
+  "description": "Entdecken Sie einzigartige, handgefertigte Stahlprodukte – robust, stilvoll und mit Leidenschaft gefertigt. Stöbern Sie in unseren Kategorien und finden Sie das perfekte Accessoire für Ihr Zuhause oder Ihren Garten.",
+  "keywords": "Stahlprodukte, handgefertigte Stahldekorationen, Stahlornamente, handgearbeiteter Stahl, Stahlelemente für Innenräume, Stahlhandwerk, Stahlmöbel, Stahlzubehör, Stahldekor, künstlerischer Stahl, handgefertigte Stahlwaren, Stahlakzente für Innenräume"
+},
+"PrivacyPolicy": {
+    "title": "Datenschutzrichtlinie – stalumo.com",
+    "updated": "Letzte Aktualisierung: 01-07-2025",
+    "intro": "Deine Privatsphäre ist uns wichtig. Diese Datenschutzrichtlinie erklärt, welche Daten wir sammeln, warum wir sie verarbeiten, wer dafür verantwortlich ist und welche Rechte du hast. Die Angabe personenbezogener Daten ist freiwillig, aber erforderlich, wenn du über das Formular mit uns Kontakt aufnehmen möchtest.",
+    
+    "section1Title": "Verantwortlicher für die Datenverarbeitung",
+    "section1Content": "Verantwortlicher:\nStalumo\nul. Kolejowa 6\n73-220 Drawno\nPolen\nNIP: 5941613140\n📞 +48 784-532-549\n✉️ office@stalumo.com\nFür die Ausübung deiner Datenschutzrechte kontaktiere uns bitte per E-Mail. Wir antworten in der Regel innerhalb von 30 Tagen.",
+    
+    "section2Title": "Welche Daten sammeln wir?",
+    "section2aTitle": "a) Daten aus dem Kontaktformular",
+    "section2aContent": "Name (wenn angegeben), E-Mail-Adresse, Betreff und Nachrichtentext. Diese Daten werden ausschließlich zur Bearbeitung deiner Anfrage verwendet und nicht an Dritte weitergegeben, sofern keine gesetzliche Grundlage besteht. Die Bereitstellung ist freiwillig, aber notwendig für eine Rückmeldung.",
+    "section2bTitle": "b) Cookies",
+    "section2bContent": "Unsere Website verwendet Cookies, darunter Analyse-Cookies von Google Analytics. Diese können unter anderem folgende Informationen erfassen: anonymisierte IP-Adresse, System- und Browserdaten, Aktivität auf der Website. Die Zustimmung zur Cookie-Nutzung wird beim ersten Besuch eingeholt und kann jederzeit über die Browsereinstellungen widerrufen werden.",
+    
+    "section3Title": "Zweck der Datenverarbeitung",
+    "section3Content": "Wir verwenden die gesammelten Daten zu folgenden Zwecken: Beantwortung von Anfragen, anonyme Website-Analyse und Verbesserung der Nutzerfreundlichkeit. Es erfolgt keine automatisierte Entscheidungsfindung oder Profiling.",
+    
+    "section4Title": "Rechtsgrundlage",
+    "section4Content": "Art. 6 Abs. 1 lit. a DSGVO – Einwilligung; lit. b – Erfüllung vorvertraglicher Maßnahmen (Kommunikation); lit. f – berechtigtes Interesse (z. B. Sicherheit, Statistik).",
+    
+    "section5Title": "Empfänger der Daten",
+    "section5Content": "Hosting-Dienstleister, Google LLC (Analytics – anonymisierte Daten), öffentliche Stellen, sofern gesetzlich vorgeschrieben. Externe IT- oder Hosting-Dienstleister können im Rahmen einer Auftragsverarbeitung Zugriff haben.",
+    
+    "section6Title": "Speicherdauer",
+    "section6Content": "Kontaktformulardaten: 6 Monate; Analytics-Daten: 14 Monate; Cookies: bis zur Löschung durch den Nutzer oder Ablauf. Daten werden nur so lange gespeichert, wie es für die angegebenen Zwecke erforderlich ist oder gesetzlich vorgeschrieben ist.",
+    
+    "section7Title": "Deine Rechte",
+    "section7Content": "Du hast das Recht auf: Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch, Datenübertragbarkeit sowie Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde. Zur Ausübung deiner Rechte kontaktiere uns bitte unter: office@stalumo.com.",
+    
+    "section8Title": "Cookies & Tracking-Technologien",
+    "section8Content": "Wir verwenden Cookies für: grundlegende Funktionen, Analyse (Google Analytics), Verbesserung der Benutzerfreundlichkeit. Du kannst Cookies jederzeit über die Einstellungen deines Browsers deaktivieren. Drittanbieter können eigene Cookies verwenden.",
+    
+    "section9Title": "Änderungen der Richtlinie",
+    "section9Content": "Wir behalten uns das Recht vor, diese Datenschutzrichtlinie zu ändern. Die jeweils aktuelle Version findest du unter stalumo.com/datenschutz.",
+    
+    "contactNote": "Bei Fragen kontaktiere uns bitte unter: office@stalumo.com",
+    
+    "section10Title": "Google Analytics und Cookie-Einwilligung",
+    "section10Content": "Wir verwenden Google Analytics 4, einen Webanalysedienst von Google LLC, zur anonymen Auswertung der Nutzung unserer Website. Erfasste Daten können anonymisierte IP-Adressen, Informationen zum Betriebssystem, Browsertyp und Nutzungsverhalten umfassen.\n\nStandardmäßig werden durch Google Analytics keine Daten gespeichert, solange keine Einwilligung vorliegt (analytics_storage: 'denied'). Die Erfassung beginnt erst nach Zustimmung über das Cookie-Banner. Du kannst deine Einwilligung jederzeit widerrufen, indem du deine Browsereinstellungen änderst oder das Cookie-Banner erneut aufrufst (falls verfügbar).\n\nWenn Daten an Google LLC (mit Sitz in den USA) übermittelt werden, erfolgt dies auf Grundlage der Standardvertragsklauseln gemäß Art. 46 DSGVO.\n\nWeitere Informationen:\n- Datenschutzerklärung von Google: https://policies.google.com/privacy\n- Nutzungsbedingungen von Google Analytics: https://marketingplatform.google.com/about/analytics/terms/de/\n- Standardvertragsklauseln (SCC): https://support.google.com/analytics/answer/9012600"
+  }
+
+
+}
