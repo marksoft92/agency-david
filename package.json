@@ -18,7 +18,8 @@
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.23.7",
+    "framer-motion": "^12.23.9",
+    "keen-slider": "^6.8.6",
     "lucide-react": "^0.460.0",
     "mysql2": "^3.14.0",
     "next": "15.0.3",
@@ -29,6 +30,7 @@
     "react-dom": "^18.3.1",
     "react-google-recaptcha-v3": "^1.10.1",
     "react-hook-form": "^7.53.2",
+    "swiper": "^11.2.10",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.23.8"
