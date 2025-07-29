@@ -5,7 +5,7 @@ export default function SuplaControlSection() {
     <section className="max-w-[1280px] mx-auto px-6 py-24 text-white bg-black flex flex-col gap-16">
       {/* Nagłówki */}
       <div className="flex flex-col gap-6 max-w-4xl mx-auto text-center">
-        <h4 className="text-green-400 text-sm font-semibold uppercase tracking-[4px]">
+        <h4 className=" text-sm font-semibold uppercase tracking-[4px]">
           Sterowanie urządzeniami Supla
         </h4>
         <h1 className="text-5xl font-oswald font-bold uppercase leading-tight max-md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400">

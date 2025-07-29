@@ -2,18 +2,25 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { LuCamera, LuCpu, LuSmartphone } from 'react-icons/lu';
+import { LuCpu, LuSmartphone, LuMonitor, LuFileText, LuStore, LuNetwork } from 'react-icons/lu';
+
+import Webpage from './webpage'
+import Webapp from './webapp'
+import Shop from './shop'
+
+import Seo from './seo'
+import Mobileapp from './mobileapp'
 
 const TABS = [
-    { id: 'supla', icon: <LuCpu size={32} />, label: 'Supla' },
-    { id: 'sonoff', icon: <LuSmartphone size={32} />, label: 'Sonoff' },
-    { id: 'camera', icon: <LuCamera size={32} />, label: 'Camera IPw' },
-    { id: 'x', icon: <LuCamera size={32} />, label: 'Camera IPx' },
-    { id: 'y', icon: <LuCamera size={32} />, label: 'Camera IPy' },
+    { id: 'webpage', icon: <LuFileText size={32} />, label: 'Strony Internetowe' },
+    { id: 'webapp', icon: <LuMonitor size={32} />, label: 'Aplikacje webowe' },
+    { id: 'mobileapp', icon: <LuSmartphone size={32} />, label: 'Aplikacje mobilne' },
+    { id: 'shop', icon: <LuStore size={32} />, label: 'Sklepy Internetowe' },
+    { id: 'seo', icon: <LuNetwork size={32} />, label: 'Seo - Marketing' },
 ];
 
 export default function SmartHomeTabs() {
-    const [activeTab, setActiveTab] = useState('supla');
+    const [activeTab, setActiveTab] = useState('webpage');
     const containerRef = useRef<HTMLDivElement>(null);
     const [tabCenters, setTabCenters] = useState<number[]>([]);
     const controls = useAnimation();
@@ -59,16 +66,16 @@ export default function SmartHomeTabs() {
 
     const renderContent = () => {
         switch (activeTab) {
-            case 'supla':
-                return <p className="text-lg">Sterowanie oświetleniem, bramą, gniazdkami i harmonogramami – wszystko w aplikacji Supla zintegrowanej z panelem Smart Home.</p>;
-            case 'sonoff':
-                return <p className="text-lg">Automatyka domowa na bazie Sonoff – sceny, czujniki, harmonogramy i sterowanie głosowe z Google Assistant.</p>;
-            case 'camera':
-                return <p className="text-lg">Podgląd na żywo z kamer IP, wykrywanie ruchu, rejestracja oraz pełna integracja z panelem sterowania.</p>;
-            case 'x':
-                return <p className="text-lg">Podgląd na żywo z kamer IP, wykrywanie ruchu, rejestracja oraz pełna integracja z panelem sterowania.</p>;
-            case 'y':
-                return <p className="text-lg">Podgląd na żywo z kamer IP, wykrywanie ruchu, rejestracja oraz pełna integracja z panelem sterowania.</p>;
+            case 'webpage':
+                return <Webpage />;
+            case 'webapp':
+                return <Webapp />;
+            case 'mobileapp':
+                return <Mobileapp />;
+            case 'shop':
+                return <Shop />;
+            case 'seo':
+                return <Seo />;
         }
     };
 
@@ -118,8 +125,9 @@ export default function SmartHomeTabs() {
                     const isActive = activeTab === tab.id;
                     return (
                         <span
+                            onClick={() => setActiveTab(tab.id)}
                             key={tab.id}
-                            className={`mt-3 font-semibold text-sm text-center ${isActive ? 'text-cyan-400' : 'text-white/80'
+                            className={`cursor-pointer mt-3 font-semibold text-sm text-center ${isActive ? 'text-cyan-400' : 'text-white/80'
                                 }`}
                             style={{ width: 80 }}
                         >
@@ -129,7 +137,7 @@ export default function SmartHomeTabs() {
                 })}
             </div>
 
-            <div className="relative min-h-[120px] w-full max-w-3xl px-4 text-center">
+            <div className="relative min-h-[120px] w-full  px-4 text-center">
                 {renderContent()}
             </div>
         </section>

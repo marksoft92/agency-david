@@ -2,15 +2,15 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { LuCamera, LuCpu, LuSmartphone } from 'react-icons/lu';
+import { LuVideo, LuCpu, LuSmartphone, } from 'react-icons/lu';
 import Sonoff from "./sonoff"
 import CameraIP from "./cameraIP"
 import Supla from "./supla"
 
 const TABS = [
-    { id: 'supla', icon: <LuCpu size={32} />, label: 'Supla' },
-    { id: 'sonoff', icon: <LuSmartphone size={32} />, label: 'Sonoff' },
-    { id: 'camera', icon: <LuCamera size={32} />, label: 'Camera IP' },
+    { id: 'supla', icon: <LuCpu size={32} />, label: 'Automatyzacje' },
+    { id: 'sonoff', icon: <LuSmartphone size={32} />, label: 'SmartPanele' },
+    { id: 'camera', icon: <LuVideo size={32} />, label: 'Monitoring' },
 ];
 
 export default function SmartHomeTabs() {
@@ -72,7 +72,7 @@ export default function SmartHomeTabs() {
     return (
         <section className="py-20 px-4 bg-black text-white flex flex-col items-center gap-16 select-none">
             <h2 className="text-3xl font-bold bg-gradient-to-r from-green-400 to-yellow-400 text-transparent bg-clip-text mb-6">
-                Oferta systemów Smart Home
+                Automatyzacje i Bezpieczeństwo
             </h2>
 
             <div
