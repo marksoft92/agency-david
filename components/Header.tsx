@@ -10,7 +10,7 @@ export default function Navbar() {
   // Mapowanie sekcji na klasy kolorów
   const sectionColorClasses: Record<string, string> = {
     automation: 'bg-gradient-to-r from-green-400 to-yellow-400 text-transparent bg-clip-text',
-    services: 'text-pink-500',
+    services: 'bg-gradient-to-r from-pink-500 to-cyan-400 text-transparent bg-clip-text',
     contact: 'text-cyan-400',
   };
 
