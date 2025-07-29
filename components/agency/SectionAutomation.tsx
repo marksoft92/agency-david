@@ -6,6 +6,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import SectionAutomationExtended from "./Automation/SectionAutomationExtended";
+import SectionAutomationRealization from "./Automation/SectionAutomationRealization";
+import RealizationsSteps from "./Automation/RealizationStep";
+import RealizationsFeatures from "./Automation/RealizationFutures";
+import RealizationsTestimonials from "./Automation/RealizationTestimonials";
 
 const slides = [
     {
@@ -27,6 +32,7 @@ const slides = [
 
 export default function SectionAutomation() {
     return (
+      <>
         <section id="automation" className="bg-black py-24 px-6 text-white">
             <div className="max-w-7xl mx-auto">
                 <motion.h2
@@ -110,5 +116,11 @@ export default function SectionAutomation() {
                 </motion.div>
             </div>
         </section>
+        <SectionAutomationExtended />
+        <SectionAutomationRealization />
+        <RealizationsSteps />
+        <RealizationsFeatures/>
+        <RealizationsTestimonials/>
+      </>
     );
 }
