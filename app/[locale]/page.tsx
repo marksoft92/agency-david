@@ -13,7 +13,6 @@ export default function HomePage() {
       <Hero />
       <SectionServices />
       <SectionAutomation />
-      <CTA />
     </main>
   );
 }

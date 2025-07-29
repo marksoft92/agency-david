@@ -1,40 +1,42 @@
-'use client';
+"use client";
 
-export default function SeoMarketingSection() {
+import Link from "next/link";
+import { motion } from "framer-motion";
+
+export default function CTASection() {
   return (
-    <section className="max-w-[1280px] mx-auto px-6 py-24 text-white bg-black flex flex-col gap-16">
-      {/* Nagłówki */}
-      <div className="flex flex-col gap-6 max-w-4xl mx-auto text-center">
-        <h4 className="text-white text-sm font-semibold uppercase tracking-[4px]">
-          SEO i marketing
-        </h4>
-        <h1 className="text-5xl font-oswald font-bold uppercase leading-tight max-md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-500">
-          Zwiększ widoczność i sprzedaż online
-        </h1>
-        <div className="w-16 h-1 bg-gradient-to-r from-pink-500 to-transparent mx-auto opacity-80 rounded"></div>
-        <p className="text-[#A5A5A5] text-lg leading-relaxed tracking-wide max-w-3xl mx-auto">
-          Kompleksowe działania SEO i kampanie marketingowe dostosowane do Twoich celów biznesowych.
-        </p>
-        <p className="text-[#A5A5A5] text-lg leading-relaxed tracking-wide max-w-3xl mx-auto">
-          Pomagamy pozyskać wartościowy ruch i poprawić konwersje poprzez skuteczne strategie.
-        </p>
-      </div>
+    <section className="bg-black border-2 border-pink-500 py-20 px-6 rounded-3xl max-w-4xl mx-auto text-center text-white shadow-lg shadow-pink-600/50">
+      <motion.h2
+        className="text-4xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-lg"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        Gotowy na współpracę, która wyniesie Twój biznes na wyższy poziom?
+      </motion.h2>
 
-      {/* Obraz + info */}
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 items-center">
-        <div className="flex-1 space-y-6">
-          <h2 className="text-3xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-500">
-            Co oferujemy?
-          </h2>
-          <ul className="list-disc list-inside text-[#A5A5A5] space-y-3 text-lg">
-            <li>Audyt SEO i optymalizacja techniczna</li>
-            <li>Pozycjonowanie lokalne i globalne</li>
-            <li>Google Ads i kampanie reklamowe</li>
-            <li>Content marketing i analiza słów kluczowych</li>
-            <li>Raportowanie i optymalizacja konwersji</li>
-          </ul>
-        </div>
-      </div>
+      <motion.p
+        className="mb-10 max-w-xl mx-auto text-lg leading-relaxed text-gray-300 drop-shadow"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3, duration: 0.8 }}
+      >
+        Skontaktuj się z nami już dziś i zacznij realizować swoje cele z profesjonalnym wsparciem.
+      </motion.p>
+
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.6, duration: 0.5 }}
+      >
+        <Link
+          href="/kontakt"
+          className="inline-block bg-gradient-to-r from-pink-500 to-cyan-400 text-black font-semibold px-10 py-4 rounded-full shadow-lg shadow-pink-600 transition-all duration-300
+          hover:from-cyan-400 hover:to-pink-500 hover:scale-105"
+        >
+          Skontaktuj się z nami
+        </Link>
+      </motion.div>
     </section>
   );
 }

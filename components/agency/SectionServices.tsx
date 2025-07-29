@@ -1,12 +1,14 @@
 
 'use client';
-
+import Link from 'next/link';
 import { useState } from "react";
 import WebSteps from "./Programing/WebSteps";
 import WebGallery from "./Programing/WebGallery";
 import WebFeatures from "./Programing/WebFeatures";
 import WebTestimonials from "./Programing/WebTestimonials";
 import InteractiveCards from "./Programing/InteractiveCard"
+import TableSucces from "./Programing/TableSucces";
+import CTA from "./Programing/CTA";
 
 const projects = [
   {
@@ -57,7 +59,7 @@ export default function ProgrammingOffer() {
   };
 
   return (<>
-    <section className="max-w-[1280px] mx-auto px-6 py-24 text-white bg-black flex flex-col gap-16">
+    <section id="services" className="max-w-[1280px] mx-auto px-6 py-24 text-white bg-black flex flex-col gap-16">
       {/* Nagłówki */}
       <div className="flex flex-col gap-6 max-w-4xl mx-auto text-center">
         <h4 className="text-white text-sm font-semibold uppercase tracking-[4px]">
@@ -93,9 +95,15 @@ export default function ProgrammingOffer() {
 
         <div className="bg-[#1A1A1A] p-6 rounded-2xl shadow-lg border border-[#2e2e2e]">
           <h3 className="text-white text-2xl font-semibold mb-4 uppercase">Technologie, których używamy</h3>
-          <p className="text-[#A5A5A5] text-lg leading-relaxed">
+          <p className="text-[#A5A5A5] text-lg leading-relaxed mb-4">
             React, Next.js, TypeScript, Node.js, Tailwind CSS, Docker, AWS, GraphQL i wiele innych nowoczesnych narzędzi i frameworków.
           </p>
+          <Link
+            href="/pl/produkty-cyfrowe"
+            className="inline-block text-pink-500 hover:text-pink-400 font-semibold transition-colors duration-300"
+          >
+            Zobacz nasze produkty cyfrowe →
+          </Link>
         </div>
       </div>
 
@@ -134,40 +142,37 @@ export default function ProgrammingOffer() {
       {/* Modal */}
       {modalOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-95 z-50 flex items-center justify-center p-6"
+          className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center"
           onClick={closeModal}
-          role="dialog"
-          aria-modal="true"
-          aria-label="Podgląd zdjęcia projektu"
         >
           <div
-            className="relative max-w-5xl w-full max-h-[90vh] overflow-auto rounded-xl border border-pink-500 bg-black p-4 flex items-center justify-center"
+            className="relative w-full max-w-5xl max-h-[95vh] mx-4 overflow-y-auto rounded-xl border border-white bg-black p-4 flex items-center justify-center h-[90vh]"
             onClick={(e) => e.stopPropagation()}
           >
             <img
               src={projects[currentIndex].image}
               alt={projects[currentIndex].alt}
-              className="max-w-full max-h-[85vh] object-contain rounded-lg"
-              style={{ objectPosition: "top left" }}
+              className=" max-w-full rounded-lg object-contain object-top absolute top-0"
             />
+            {/* Controls */}
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 text-white bg-pink-500 rounded-full p-2 hover:bg-pink-700 transition"
-              aria-label="Zamknij podgląd"
+              className="absolute top-4 right-4 text-white bg-pink-600 rounded-full p-2 hover:bg-pink-700 transition"
+              aria-label="Close modal"
             >
               ✕
             </button>
             <button
               onClick={() => setCurrentIndex(currentIndex === 0 ? projects.length - 1 : currentIndex - 1)}
-              className="absolute top-1/2 left-4 -translate-y-1/2 text-white bg-pink-500 rounded-full p-2 hover:bg-pink-700 transition"
-              aria-label="Poprzednie zdjęcie"
+              className="absolute top-1/2 left-4 -translate-y-1/2 text-white bg-pink-600 rounded-full p-2 hover:bg-pink-700 transition"
+              aria-label="Previous image"
             >
               ‹
             </button>
             <button
               onClick={() => setCurrentIndex(currentIndex === projects.length - 1 ? 0 : currentIndex + 1)}
-              className="absolute top-1/2 right-4 -translate-y-1/2 text-white bg-pink-500 rounded-full p-2 hover:bg-pink-700 transition"
-              aria-label="Następne zdjęcie"
+              className="absolute top-1/2 right-4 -translate-y-1/2 text-white bg-pink-600 rounded-full p-2 hover:bg-pink-700 transition"
+              aria-label="Next image"
             >
               ›
             </button>
@@ -175,11 +180,13 @@ export default function ProgrammingOffer() {
         </div>
       )}
     </section>
-             <WebSteps />
-             <WebGallery />
-             <WebFeatures />
-             <WebTestimonials />
-             <InteractiveCards />
-             </>
+    <WebSteps />
+    {/* <WebGallery /> */}
+    <WebFeatures />
+    <WebTestimonials />
+    <TableSucces />
+    <CTA />
+    {/* <InteractiveCards /> */}
+  </>
   );
 }

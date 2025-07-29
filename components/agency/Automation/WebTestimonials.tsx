@@ -28,7 +28,7 @@ export default function WebTestimonialsSimple() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-extrabold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-lg"
+          className="text-4xl font-extrabold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400 drop-shadow-lg"
         >
           Opinie naszych klientów
         </motion.h2>
@@ -46,7 +46,7 @@ export default function WebTestimonialsSimple() {
         {testimonials.map(({ name, photo, text }, i) => (
           <motion.div
             key={i}
-            className="bg-black/60 rounded-3xl p-8 shadow-2xl border-2 border-transparent hover:border-pink-500 hover:shadow-pink-600/50 transition-all duration-500 flex flex-col items-center text-center cursor-pointer"
+            className="bg-black/60 rounded-3xl p-8 shadow-2xl border-2 border-transparent hover:border-green-400 hover:shadow-yellow-600/50 transition-all duration-500 flex flex-col items-center text-center cursor-pointer"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: i * 0.15 }}
@@ -54,11 +54,11 @@ export default function WebTestimonialsSimple() {
             <img
               src={photo}
               alt={`Zdjęcie klienta ${name}`}
-              className="w-24 h-24 rounded-full mb-6 object-cover shadow-lg border-4 border-pink-500"
+              className="w-24 h-24 rounded-full mb-6 object-cover shadow-lg border-4 border-green-400"
               loading="lazy"
             />
             <p className="mb-6 text-white/80 italic text-base leading-relaxed">&quot;{text}&quot;</p>
-            <h3 className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-lg">
+            <h3 className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400 drop-shadow-lg">
               {name}
             </h3>
           </motion.div>
