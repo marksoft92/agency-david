@@ -15,20 +15,20 @@ const projects = [
   {
     title: "Strony internetowe",
     description: "Profesjonalne, responsywne i zoptymalizowane pod SEO strony www, które pomagają rozwinąć Twój biznes online.",
-    image: "/assets/images/programing/webapp_2.webp",
-    minimage:"/assets/images/programing/webapp_2.webp",
+    image:"/assets/images/programing/webapp_2.webp",
+    minimage: "/assets/images/capture/webapp_2.webp",
     alt: "Projekt strony internetowej",
   },
   {
     title: "Sklepy internetowe",
     description: "Funkcjonalne i intuicyjne platformy e-commerce z szybkim ładowaniem i integracjami z systemami płatności.",
-    image: "/assets/images/web2.webp",
+    image: "/assets/images/web3.webp",
     alt: "Projekt sklepu internetowego",
   },
   {
     title: "Aplikacje webowe",
     description: "Dedykowane aplikacje webowe z nowoczesnym designem i skalowalną architekturą dostosowaną do Twoich potrzeb.",
-    image: "/assets/images/capture/stalumo-web.jpg",
+    image: "/assets/images/capture/webapp_1.jpg",
     minimage:"/assets/images/programing/webapp_1.webp",
     alt: "Projekt aplikacji webowej",
   },
@@ -166,7 +166,7 @@ export default function ProgrammingOffer() {
                                 src={projects[currentIndex].image}
                                 alt={projects[currentIndex].alt}
                                     loading="lazy"
-                   className=" max-w-full rounded-lg object-contain object-top absolute top-0"
+                   className=" max-w-full rounded-lg object-contain object-top absolute top-0 w-full"
                    height={1000}
                    width={500}
                                 />
