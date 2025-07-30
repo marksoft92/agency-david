@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function CTASection() {
-    return (
+    return (<>
         <section className="bg-black border-2 border-pink-500 py-20 px-6 rounded-3xl max-w-4xl mx-auto text-center text-white shadow-lg shadow-pink-600/50">
             <motion.h2
                 className="text-4xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400 drop-shadow-lg"
@@ -37,6 +37,15 @@ export default function CTASection() {
                     Skontaktuj się z nami
                 </Link>
             </motion.div>
+            
         </section>
+
+        <motion.div
+        initial={{ width: 0 }}
+        whileInView={{ width: "100%" }}
+        transition={{ duration: 1 }}
+        className="h-1 bg-gradient-to-r from-pink-500 to-cyan-400 my-16"
+      />
+      </>
     );
 }

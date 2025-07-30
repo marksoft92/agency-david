@@ -79,6 +79,7 @@ export default function WebSteps() {
           </motion.div>
         ))}
       </div>
+      
     </section>
   );
 }

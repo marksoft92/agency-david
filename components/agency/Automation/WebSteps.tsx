@@ -13,25 +13,25 @@ const steps = [
     icon: LucideClipboardCheck,
     title: "Analiza i konsultacja",
     desc: "Dokładnie analizujemy potrzeby Twojego smart domu, dobierając rozwiązania dostosowane do instalacji kamer, sterowania bramami i paneli sterujących.",
-    styleCls: "from-green-400 to-yellow-400",
+    styleCls: "bg-green-400 ",
   },
   {
     icon: LucideCode,
     title: "Projektowanie i instalacja",
     desc: "Projektujemy i montujemy systemy monitoringu IP, integrujemy sterowanie bramami przez aplikację na telefon oraz programujemy panele Sonoff.",
-    styleCls: "from-green-400 to-yellow-400",
+    styleCls: "bg-yellow-400",
   },
   {
     icon: LucideSmartphone,
     title: "Testy i wdrożenie",
     desc: "Testujemy wszystkie urządzenia i oprogramowanie pod kątem stabilności i wygody użytkowania na telefonach Android i innych urządzeniach.",
-    styleCls: "from-green-400 to-yellow-400",
+    styleCls: "bg-green-400 ",
   },
   {
     icon: LucideServer,
     title: "Wsparcie i serwis",
     desc: "Oferujemy stałe wsparcie, aktualizacje i monitoring działania systemu, by Twój inteligentny dom działał bezawaryjnie 24/7.",
-    styleCls: "from-green-400 to-yellow-400",
+    styleCls: "bg-yellow-400",
   },
 ];
 

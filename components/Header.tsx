@@ -9,9 +9,14 @@ export default function Navbar() {
 
   // Mapowanie sekcji na klasy kolorów
   const sectionColorClasses: Record<string, string> = {
-    automation: 'bg-gradient-to-r from-green-400 to-yellow-400 text-transparent bg-clip-text',
+    automation: 'bg-gradient-to-r from-green-400 to-yellow-400 text-transparent bg-clip-text hover:text-green-400',
     services: 'bg-gradient-to-r from-pink-500 to-cyan-400 text-transparent bg-clip-text',
     contact: 'text-cyan-400',
+  };
+  const hover: Record<string, string> = {
+    automation: ' hover:text-green-400',
+    services: 'hover:text-pink-500',
+
   };
 
   // Przy scrollowaniu wykrywa, która sekcja jest aktualnie widoczna
@@ -54,6 +59,17 @@ export default function Navbar() {
           ? sectionColorClasses[activeSection] ?? ''
           : '';
 
+
+
+const navClass = 
+pathname === '/smart-home'
+  ? 'bg-gradient-to-r from-green-400 to-yellow-400 text-transparent bg-clip-text'
+  : pathname === '/produkty-cyfrowe'
+    ? 'text-pink-500'
+    : activeSection
+      ? hover[activeSection] ?? ''
+      : '';
+
   return (
     <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -63,9 +79,10 @@ export default function Navbar() {
 
         </span>
         <div className="space-x-6 hidden md:flex text-white">
-          <a href="/#services" className="hover:text-pink-400">Strony i aplikacje</a>
-          <a href="/#automation" className="hover:text-pink-400">Automatyka</a>
-          <a href="/#contact" className="hover:text-pink-400">Kontakt</a>
+          <a href="/#services" className={navClass}>Strony i aplikacje</a>
+          <a href="/#automation" className={navClass}>Automatyka</a>
+          <a href="/oferta" className={navClass}>Oferta</a>
+          <a href="/#contact" className={navClass}>Kontakt</a>
         </div>
       </div>
     </nav>

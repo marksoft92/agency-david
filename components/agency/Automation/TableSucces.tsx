@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import { LucideCheckCircle } from "lucide-react";
-
+import { useState } from "react";
+import Toast from "../Toast";
 const benefits = [
     {
         title: "Bezpieczeństwo Twojego domu",
@@ -47,6 +48,11 @@ const benefits = [
 ];
 
 export default function ClientBenefitsTable() {
+    const [toast, setToast] = useState<string | null>(null)
+
+    const handleClick = (star: number) => {
+      setToast(`Oceniłeś ${star} na 5`)
+    }
     return (
         <section className="relative bg-black py-24 px-6 text-white overflow-hidden max-w-7xl mx-auto">
             <h2 className="text-5xl font-extrabold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400 drop-shadow-lg text-center">
@@ -97,7 +103,7 @@ export default function ClientBenefitsTable() {
                             key={star}
                             aria-label={`${star} gwiazdek`}
                             className="text-green-400 hover:text-yellow-400 transition text-4xl"
-                            onClick={() => alert(`Oceniłeś ${star} na 5`)}
+                            onClick={() => handleClick(star)}
                             type="button"
                         >
                             ★
@@ -108,6 +114,7 @@ export default function ClientBenefitsTable() {
                     Kliknij gwiazdkę, aby zaznaczyć ocenę. To pomoże nam dostosować ofertę do Twoich potrzeb.
                 </p>
             </motion.div>
+            {toast && <Toast message={toast} onClose={() => setToast(null)} bg={'bg-green-400'}/>}
         </section>
     );
 }

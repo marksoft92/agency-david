@@ -8,6 +8,7 @@ import TableSucces from "./Automation/TableSucces";
 import CTA from "./Automation/CTA";
 import InteractiveCard from "./Automation/InteractiveCard";
 import Link from "next/link";
+import ArrowBetweenSections from "../ArrowBetweenSections";
 const projects = [
     {
         title: "Instalacja kamer IP BCS",

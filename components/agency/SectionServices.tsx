@@ -185,7 +185,7 @@ export default function ProgrammingOffer() {
     {/* <WebGallery /> */}
     <WebFeatures />
     <TableSucces />
-    <WebTestimonials />
+     <WebTestimonials />
     <CTA />
     {/* <InteractiveCards /> */}
   </>
