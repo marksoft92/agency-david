@@ -19,31 +19,32 @@ const projects = [
     minimage: "/assets/images/capture/webapp_2.webp",
     alt: "Projekt strony internetowej",
   },
-  {
-    title: "Sklepy internetowe",
-    description: "Funkcjonalne i intuicyjne platformy e-commerce z szybkim ładowaniem i integracjami z systemami płatności.",
-    image: "/assets/images/web3.webp",
-    alt: "Projekt sklepu internetowego",
-  },
+  // {
+  //   title: "Sklepy internetowe",
+  //   description: "Funkcjonalne i intuicyjne platformy e-commerce z szybkim ładowaniem i integracjami z systemami płatności.",
+  //   image: "/assets/images/web3.webp",
+  //   alt: "Projekt sklepu internetowego",
+  // },
   {
     title: "Aplikacje webowe",
     description: "Dedykowane aplikacje webowe z nowoczesnym designem i skalowalną architekturą dostosowaną do Twoich potrzeb.",
-    image: "/assets/images/capture/webapp_1.jpg",
-    minimage:"/assets/images/programing/webapp_1.webp",
+    minimage: "/assets/images/capture/webapp_1.webp",
+    image:"/assets/images/programing/webapp_1.webp",
     alt: "Projekt aplikacji webowej",
   },
   {
     title: "Aplikacje mobilne",
     description: "Natywne i hybrydowe aplikacje mobilne na Android i iOS o wysokiej wydajności i przyjaznym interfejsie.",
-    image: "/assets/images/web4.webp",
+    minimage: "/assets/images/capture/webapp_3.webp",
+    image:"/assets/images/programing/webapp_3.webp",
     alt: "Projekt aplikacji mobilnej",
   },
-  {
-    title: "Zarządzanie serwerami",
-    description: "Profesjonalna obsługa serwerów, hosting, monitoring i optymalizacja infrastruktury IT Twojej firmy.",
-    image: "/assets/images/web5.webp",
-    alt: "Zarządzanie serwerami",
-  },
+  // {
+  //   title: "Zarządzanie serwerami",
+  //   description: "Profesjonalna obsługa serwerów, hosting, monitoring i optymalizacja infrastruktury IT Twojej firmy.",
+  //   image: "/assets/images/web5.webp",
+  //   alt: "Zarządzanie serwerami",
+  // },
 ];
 
 export default function ProgrammingOffer() {
@@ -96,18 +97,18 @@ export default function ProgrammingOffer() {
           </ul>
         </div>
 
-        <div className="bg-[#1A1A1A] p-6 rounded-2xl shadow-lg border border-[#2e2e2e]">
-          <h3 className="text-white text-2xl font-semibold mb-4 uppercase">Technologie, których używamy</h3>
-          <p className="text-[#A5A5A5] text-lg leading-relaxed mb-4">
-            React, Next.js, TypeScript, Node.js, Tailwind CSS, Docker, AWS, GraphQL i wiele innych nowoczesnych narzędzi i frameworków.
-          </p>
-          <Link
-            href="/produkty-cyfrowe"
-            className="inline-block text-pink-500 hover:text-pink-400 font-semibold transition-colors duration-300"
-          >
-            Zobacz nasze produkty cyfrowe →
-          </Link>
-        </div>
+        <div className="bg-[#1A1A1A] p-6 rounded-2xl shadow-lg border border-[#2e2e2e] flex flex-col justify-between items-stretch">
+  <h3 className="text-white text-2xl font-semibold mb-4 uppercase">Technologie, których używamy</h3>
+  <p className="text-[#A5A5A5] text-lg leading-relaxed mb-6">
+    React, Next.js, TypeScript, Node.js, Tailwind CSS, Docker, AWS, GraphQL i wiele innych nowoczesnych narzędzi i frameworków.
+  </p>
+  <Link
+    href="/produkty-cyfrowe"
+    className="inline-block bg-pink-600 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-pink-700 transition-colors duration-300 shadow-md"
+  >
+    Zobacz nasze produkty cyfrowe →
+  </Link>
+</div>
       </div>
 
       {/* Galeria projektów */}

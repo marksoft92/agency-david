@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="#home" className="footer-link">Strona główna</a>
           <a href="#services" className="footer-link">Usługi</a>
           <a href="#about" className="footer-link">O nas</a>
-          <a href="#contact" className="footer-link">Kontakt</a>
+          <a href="/kontakt" className="footer-link">Kontakt</a>
         </nav>
 
         {/* Social media */}

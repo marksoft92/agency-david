@@ -6,7 +6,7 @@ export default function Navbar() {
                 <div className="space-x-6 hidden md:flex">
                     <a href="#services" className="hover:text-pink-400">Strony i aplikacje</a>
                     <a href="#automation" className="hover:text-pink-400">Automatyka</a>
-                    <a href="#contact" className="hover:text-pink-400">Kontakt</a>
+                    <a href="/kontakt" className="hover:text-pink-400">Kontakt</a>
                 </div>
             </div>
 

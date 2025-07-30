@@ -5,6 +5,8 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 import AutomationOffer from '@/components/agency/Automation/offer/Offer';
 import ProgrammingOffer from '@/components/agency/Programing/offer/Offer';
+import CTASectionPrograming from './Programing/CTA';
+import CTASectionAutomation from './Automation/CTA';
 
 export default function OffersPage() {
   const [activeOffer, setActiveOffer] = useState<'automation' | 'programming'>('automation');
@@ -71,6 +73,7 @@ export default function OffersPage() {
               transition={{ duration: 0.4 }}
             >
               <AutomationOffer />
+              <CTASectionAutomation />
             </motion.div>
           )}
           {activeOffer === 'programming' && (
@@ -82,6 +85,7 @@ export default function OffersPage() {
               transition={{ duration: 0.4 }}
             >
               <ProgrammingOffer />
+              <CTASectionPrograming />
             </motion.div>
           )}
         </AnimatePresence>

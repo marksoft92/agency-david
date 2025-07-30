@@ -8,6 +8,8 @@ import TableSucces from "./Automation/TableSucces";
 import CTA from "./Automation/CTA";
 import Link from "next/link";
 import Image from 'next/image';
+
+
 const projects = [
     {
         title: "Instalacja kamer IP BCS",
@@ -96,24 +98,24 @@ export default function SmartHomeOffer() {
                         </ul>
                     </div>
 
-                    <div className="bg-[#1A1A1A] p-6 rounded-2xl shadow-lg border border-[#2e2e2e]">
-                        <h3 className="text-white text-2xl font-semibold mb-4 uppercase">
-                            Technologie, których używamy
-                        </h3>
-                        <p className="text-[#A5A5A5] text-lg leading-relaxed">
-                            Kamery IP BCS, Android, MQTT, ESPHome, Sonoff Tasmota, Home Assistant,
-                            Node-RED, React, Next.js, TypeScript, Tailwind CSS, Docker, AWS.
-                        </p>
-                        <Link
-                            href="/smart-home"
-                            className="self-start mt-2 inline-block px-4 py-2 rounded-xl border-2 border-transparent
-             bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-yellow-400
-             hover:border-green-400 hover:shadow-lg hover:shadow-yellow-400/50
-             transition-all duration-500"
-                        >
-                            Sprawdź rozwiązania smart home →
-                        </Link>
-                    </div>
+                    <div className="bg-[#1A1A1A] p-6 rounded-2xl shadow-lg border border-[#2e2e2e] flex flex-col justify-between items-stretch">
+  <h3 className="text-white text-2xl font-semibold mb-4 uppercase">
+    Technologie, których używamy
+  </h3>
+  <p className="text-[#A5A5A5] text-lg leading-relaxed mb-6">
+    Kamery IP BCS, Android, MQTT, ESPHome, Sonoff Tasmota, Home Assistant, Node-RED, React, Next.js, TypeScript, Tailwind CSS, Docker, AWS.
+  </p>
+  <Link
+    href="/smart-home"
+    className="inline-flex items-center mt-4 px-6 py-3 rounded-full font-bold text-lg
+               bg-gradient-to-r from-green-400 to-yellow-400 text-white/80 shadow-md
+               hover:from-green-500 hover:to-yellow-500 hover:shadow-lg hover:shadow-yellow-400/50
+               transition-all duration-300 ease-in-out"
+  >
+    Sprawdź rozwiązania smart home
+    <span className="ml-2 text-xl">→</span>
+  </Link>
+</div>
                 </div>
 
                 {/* Galeria projektów */}

@@ -82,7 +82,7 @@ pathname === '/smart-home'
           <a href="/#services" className={navClass}>Strony i aplikacje</a>
           <a href="/#automation" className={navClass}>Automatyka</a>
           <a href="/oferta" className={navClass}>Oferta</a>
-          <a href="/#contact" className={navClass}>Kontakt</a>
+          <a href="/kontakt" className={navClass}>Kontakt</a>
         </div>
       </div>
     </nav>
