@@ -70,7 +70,7 @@ export default function SmartHomeTabs() {
     };
 
     return (
-        <section className="py-20 px-4 bg-black text-white flex flex-col items-center gap-16 select-none">
+        <section id="automation" className="py-20 bg-black text-white flex flex-col items-center gap-16 select-none">
             <h2 className="text-3xl font-bold bg-gradient-to-r from-green-400 to-yellow-400 text-transparent bg-clip-text mb-6">
                 Automatyzacje i Bezpieczeństwo
             </h2>
@@ -150,7 +150,7 @@ export default function SmartHomeTabs() {
                 })}
             </div>
 
-            <div className="relative min-h-[120px] w-full  px-4 text-center">
+            <div className="relative min-h-[120px] w-full text-center">
                 {renderContent()}
             </div>
         </section>

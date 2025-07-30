@@ -80,7 +80,7 @@ export default function SmartHomeTabs() {
     };
 
     return (
-        <section className="py-20 px-4 bg-black text-white flex flex-col items-center gap-16 select-none">
+        <section id="services" className="py-20 px-4 bg-black text-white flex flex-col items-center gap-16 select-none">
             <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-cyan-400 text-transparent bg-clip-text mb-6">
                 Oferta systemów Smart Home
             </h2>
@@ -89,7 +89,7 @@ export default function SmartHomeTabs() {
                 ref={containerRef}
                 className="relative flex flex-col items-center w-full max-w-md"
             >
-                <div className="flex gap-10 justify-center w-full relative z-10">
+                <div className="flex gap-10 justify-center w-full relative z-10 flex-nowrap md:flex-nowrap max-md:flex-wrap">
                     {TABS.map((tab) => {
                         const isActive = activeTab === tab.id;
                         return (
@@ -114,17 +114,7 @@ export default function SmartHomeTabs() {
                                 >
                                     {tab.icon}
                                 </div>
-                            </div>
-                        );
-                    })}
-                </div>
-            </div>
-
-            <div className="flex gap-10 justify-center w-full max-w-md">
-                {TABS.map((tab) => {
-                    const isActive = activeTab === tab.id;
-                    return (
-                        <span
+                                <span
                             onClick={() => setActiveTab(tab.id)}
                             key={tab.id}
                             className={`cursor-pointer mt-3 font-semibold text-sm text-center ${isActive ? 'text-cyan-400' : 'text-white/80'
@@ -133,11 +123,15 @@ export default function SmartHomeTabs() {
                         >
                             {tab.label}
                         </span>
-                    );
-                })}
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
 
-            <div className="relative min-h-[120px] w-full  px-4 text-center">
+            
+
+            <div className="relative min-h-[120px] w-full text-center">
                 {renderContent()}
             </div>
         </section>

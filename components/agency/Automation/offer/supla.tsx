@@ -2,26 +2,26 @@
 import Image from 'next/image';
 export default function SuplaControlSection() {
   return (
-    <section className="max-w-[1280px] mx-auto px-6 py-24 text-white bg-black flex flex-col gap-16">
+    <section className="max-w-[1280px]   py-24 text-white bg-black flex flex-col gap-16 w-full flex items-center">
       {/* Nagłówki */}
-      <div className="flex flex-col gap-6 max-w-4xl mx-auto text-center">
+      <div className="flex flex-col gap-6 max-w-4xl  text-center w-full  flex items-center">
         <h4 className=" text-sm font-semibold uppercase tracking-[4px]">
           Sterowanie urządzeniami Supla
         </h4>
         <h1 className="text-5xl font-oswald font-bold uppercase leading-tight max-md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400">
           Steruj bramą, garażem i światłami z telefonu
         </h1>
-        <div className="w-16 h-1 bg-gradient-to-r from-green-400 to-transparent mx-auto opacity-80 rounded"></div>
-        <p className="text-[#A5A5A5] text-lg leading-relaxed tracking-wide max-w-3xl mx-auto">
+        <div className="w-16 h-1 bg-gradient-to-r from-green-400 to-transparent  opacity-80 rounded"></div>
+        <p className="text-[#A5A5A5] text-lg leading-relaxed tracking-wide max-w-3xl ">
           Dzięki sterownikom Supla masz pełną kontrolę nad bramą wjazdową, garażem oraz oświetleniem — wszystko wygodnie przez aplikację mobilną.
         </p>
-        <p className="text-[#A5A5A5] text-lg leading-relaxed tracking-wide max-w-3xl mx-auto">
+        <p className="text-[#A5A5A5] text-lg leading-relaxed tracking-wide max-w-3xl ">
           Zdalne sterowanie, automatyzacje i integracje z systemami smart home zapewniają wygodę, bezpieczeństwo i oszczędność energii.
         </p>
       </div>
 
       {/* Obraz + info */}
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 items-center">
+      <div className="max-w-6xl  flex flex-col md:flex-row gap-10 items-center flex items-center">
         <div className="flex-1 space-y-6">
           <h2 className="text-3xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400">
             Co oferujemy?
@@ -37,8 +37,8 @@ export default function SuplaControlSection() {
       </div>
 
       {/* Sekcja z trzema zdjęciami */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6">
-        {[1, 2, 3].map((num) => (
+      <div className="max-w-6xl  grid grid-cols-1 sm:grid-cols-1 gap-6">
+        {[1].map((num) => (
           <div
             key={num}
             className="p-1 rounded-xl bg-gradient-to-r from-green-400 to-yellow-400 shadow-lg shadow-green-600/50"
