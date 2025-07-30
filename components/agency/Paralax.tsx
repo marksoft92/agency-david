@@ -43,7 +43,7 @@ export default function Hero() {
             })}
 
 <section className="relative h-screen flex items-center justify-center text-center overflow-hidden z-[100]">
-            <div className="absolute inset-0 bg-gradient-to-br from-pink-500/20 via-blue-500/10 to-black" />
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-500/20 via-blue-500/10 " />
             <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}

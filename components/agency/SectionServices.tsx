@@ -15,8 +15,8 @@ const projects = [
   {
     title: "Strony internetowe",
     description: "Profesjonalne, responsywne i zoptymalizowane pod SEO strony www, które pomagają rozwinąć Twój biznes online.",
-    image: "/assets/images/capture/stalumo-web.jpg",
-    minimage:"/assets/images/minview/webapp_1.webp",
+    image: "/assets/images/programing/webapp_2.webp",
+    minimage:"/assets/images/programing/webapp_2.webp",
     alt: "Projekt strony internetowej",
   },
   {
@@ -28,7 +28,8 @@ const projects = [
   {
     title: "Aplikacje webowe",
     description: "Dedykowane aplikacje webowe z nowoczesnym designem i skalowalną architekturą dostosowaną do Twoich potrzeb.",
-    image: "/assets/images/web3.webp",
+    image: "/assets/images/capture/stalumo-web.jpg",
+    minimage:"/assets/images/programing/webapp_1.webp",
     alt: "Projekt aplikacji webowej",
   },
   {
@@ -138,9 +139,9 @@ export default function ProgrammingOffer() {
                                   height={400}
                                 />
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 p-6 flex flex-col justify-end rounded-xl">
-                <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
-                <p className="text-white/80 text-sm leading-relaxed">{description}</p>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 p-6 flex flex-col justify-end rounded-xl hover:bg-black/50">
+                <h3 className="text-2xl font-bold text-pink-500 mb-2">{title}</h3>
+                <p className="text-white/90 text-sm leading-relaxed">{description}</p>
               </div>
             </article>
           ))}
