@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import { Metadata } from 'next';
-import { Link } from "@/i18n/routing";
+
 import rawDescriptions from '@/data/spawanie_zachodniopomorskie_uslugi.json';
+import Link from "next/link";
 
 type ServiceEntry = {
   slugCity: string;
@@ -48,7 +49,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const [slug, city] = params.slugCity.split('~');
   const resolvedParams = params;
-  const locale = resolvedParams.locale;
+
 
   const entry = descriptions.find(
     (item) => item.slugCity === city && item.service_slug === slug
@@ -66,7 +67,7 @@ export async function generateMetadata({
       images: ['https://stalumo.com/assets/images/stalumo.png'],
     },
     alternates: {
-      canonical: `https://stalumo.com/pl/${slug}~${city}`,
+      canonical: `https://bienkowski.dev/${slug}~${city}`,
     },
   };
 }

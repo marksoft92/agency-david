@@ -13,21 +13,21 @@ const projects = [
         title: "Instalacja kamer IP BCS",
         description:
             "Profesjonalne instalacje kamer IP BCS zapewniające pełną kontrolę i monitoring Twojej posesji 24/7, z dostępem zdalnym przez aplikacje mobilne.",
-        image: "/assets/images/smarthome/bcs-cameras.jpg",
+        image: "/assets/images/automation/bcsip_1.jpg",
         alt: "Instalacja kamer IP BCS",
     },
     {
         title: "Sterowanie bramami wjazdowymi i garażowymi",
         description:
             "Zdalne sterowanie bramami za pomocą telefonu z Androidem — wygoda i bezpieczeństwo w jednym. Integracja z systemami smart home i asystentami głosowymi.",
-        image: "/assets/images/smarthome/gate-control.jpg",
+        image: "/assets/images/automation/supla_1.jpg",
         alt: "Sterowanie bramami przez telefon",
     },
     {
         title: "Customowe panele ścienne Sonoff",
         description:
             "Indywidualnie zaprojektowane i zaprogramowane panele ścienne Sonoff, które umożliwiają pełną kontrolę urządzeń smart home z jednej wygodnej lokalizacji.",
-        image: "/assets/images/smarthome/sonoff-panel.jpg",
+        image: "/assets/images/automation/sonoff_1.jpg",
         alt: "Customowe panele ścienne Sonoff",
     },
 ];
@@ -105,7 +105,7 @@ export default function SmartHomeOffer() {
                             Node-RED, React, Next.js, TypeScript, Tailwind CSS, Docker, AWS.
                         </p>
                         <Link
-                            href="/pl/smart-home"
+                            href="/smart-home"
                             className="self-start mt-2 inline-block px-4 py-2 rounded-xl border-2 border-transparent
              bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-yellow-400
              hover:border-green-400 hover:shadow-lg hover:shadow-yellow-400/50
@@ -140,10 +140,10 @@ export default function SmartHomeOffer() {
                                     src={image}
                                     alt={alt}
                                     loading="lazy"
-                                    className="w-full h-48 object-cover rounded-xl"
+                                    className="w-full h-[20rem] object-cover rounded-xl "
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 p-6 flex flex-col justify-end rounded-xl">
-                                    <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 p-6 flex flex-col rounded-xl justify-center hover:bg-black/50">
+                                    <h3 className="text-2xl font-bold text-green-400 mb-2">{title}</h3>
                                     <p className="text-white/80 text-sm leading-relaxed">{description}</p>
                                 </div>
                             </article>
@@ -198,8 +198,8 @@ export default function SmartHomeOffer() {
             </section>
             <WebSteps />
             <WebFeatures />
-            <WebTestimonials />
             <TableSucces />
+            <WebTestimonials />
             <CTA />
 
         </>

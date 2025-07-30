@@ -44,7 +44,7 @@ export default function WebAppsSection() {
             className="p-1 rounded-xl bg-gradient-to-r from-green-400 to-yellow-400 shadow-lg shadow-green-600/50"
           >
             <img
-              src={`/assets/images/smarthome/app${num}.jpg`}
+              src={`/assets/images/automation/sonoff_${num}.jpg`}
               alt={`Widok panelu smart home ${num}`}
               className="w-full rounded-lg object-cover"
               loading="lazy"

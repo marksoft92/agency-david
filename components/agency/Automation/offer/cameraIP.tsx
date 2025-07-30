@@ -36,6 +36,22 @@ export default function WebsiteSection() {
         </div>
         {/* Możesz tutaj dodać obraz, jeśli chcesz, np. <img> lub komponent <Image> */}
       </div>
+      {/* Sekcja z trzema zdjęciami */}
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6">
+        {[1, 2, 3].map((num) => (
+          <div
+            key={num}
+            className="p-1 rounded-xl bg-gradient-to-r from-green-400 to-yellow-400 shadow-lg shadow-green-600/50"
+          >
+            <img
+              src={`/assets/images/automation/bcsip_${num}.jpg`}
+              alt={`Widok kamer z aplikacji ${num}`}
+              className="w-full rounded-lg object-cover"
+              loading="lazy"
+            />
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

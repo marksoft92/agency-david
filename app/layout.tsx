@@ -1,8 +1,8 @@
 import Header from "@/components/Header";
-import { Locale, routing } from "@/i18n/routing";
+
 import type { Metadata } from "next";
-import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+
+
 import { Hubot_Sans } from 'next/font/google'
 import { notFound } from "next/navigation";
 import "./globals.css";
@@ -29,17 +29,15 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: Locale };
+  params: { };
 }>) {
-  const { locale } = await params;
-  if (!routing.locales.includes(locale as Locale)) {
-    notFound();
-  }
+  
 
-  const messages = await getMessages();
+
+
 
   return (
-    <html lang={locale}>
+    <html lang={'pl'}>
       <head>
         {/* <GTMHead /> */}
       </head>
@@ -52,13 +50,13 @@ export default async function RootLayout({
           {/* <StructuredData locale={locale} /> */}
         </Suspense>
         {/* <GTMNoScript /> */}
-        <NextIntlClientProvider messages={messages}>
+
           <Header />
           {children}
           {/* <GoogleRecaptchaWrapper>{children}</GoogleRecaptchaWrapper> */}
           <Footer />
           {/* <CookieBanner locale={locale} /> */}
-        </NextIntlClientProvider>
+
       </body>
     </html>
   );

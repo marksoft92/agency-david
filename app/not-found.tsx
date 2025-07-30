@@ -1,5 +1,5 @@
 import Container from "@/components/ui/container";
-import { getTranslations } from "next-intl/server";
+
 import Link from "next/link";
 import Button from "@/components/ui/button";
 
@@ -11,7 +11,7 @@ export default async function NotFound() {
         "/assets/images/spawanie4.jpg",
         "/assets/images/spawanie5.jpg",
     ];
-    const t = await getTranslations("NotFound");
+ 
     return (
         <Container>
      <></>

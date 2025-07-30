@@ -46,9 +46,9 @@ export default function Navbar() {
 
   // Jeśli jesteśmy na konkretnej podstronie – nadpisz
   const logoClass =
-    pathname === '/pl/smart-home'
+    pathname === '/smart-home'
       ? 'bg-gradient-to-r from-green-400 to-yellow-400 text-transparent bg-clip-text'
-      : pathname === '/pl/produkty-cyfrowe'
+      : pathname === '/produkty-cyfrowe'
         ? 'text-pink-500'
         : activeSection
           ? sectionColorClasses[activeSection] ?? ''
@@ -59,13 +59,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <span className={`text-xl font-bold transition-all duration-300 ${logoClass}`}>
           <Link
-            href="/pl">BIENKOWSKI.DEV</Link>
+            href="/">BIENKOWSKI.DEV</Link>
 
         </span>
         <div className="space-x-6 hidden md:flex text-white">
-          <a href="/pl/#services" className="hover:text-pink-400">Strony i aplikacje</a>
-          <a href="/pl/#automation" className="hover:text-pink-400">Automatyka</a>
-          <a href="/pl/#contact" className="hover:text-pink-400">Kontakt</a>
+          <a href="/#services" className="hover:text-pink-400">Strony i aplikacje</a>
+          <a href="/#automation" className="hover:text-pink-400">Automatyka</a>
+          <a href="/#contact" className="hover:text-pink-400">Kontakt</a>
         </div>
       </div>
     </nav>

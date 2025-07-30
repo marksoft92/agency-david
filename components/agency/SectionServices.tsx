@@ -15,6 +15,7 @@ const projects = [
     title: "Strony internetowe",
     description: "Profesjonalne, responsywne i zoptymalizowane pod SEO strony www, które pomagają rozwinąć Twój biznes online.",
     image: "/assets/images/capture/stalumo-web.jpg",
+    minimage:"/assets/images/minview/webapp_1.webp",
     alt: "Projekt strony internetowej",
   },
   {
@@ -99,7 +100,7 @@ export default function ProgrammingOffer() {
             React, Next.js, TypeScript, Node.js, Tailwind CSS, Docker, AWS, GraphQL i wiele innych nowoczesnych narzędzi i frameworków.
           </p>
           <Link
-            href="/pl/produkty-cyfrowe"
+            href="/produkty-cyfrowe"
             className="inline-block text-pink-500 hover:text-pink-400 font-semibold transition-colors duration-300"
           >
             Zobacz nasze produkty cyfrowe →
@@ -113,7 +114,7 @@ export default function ProgrammingOffer() {
           Nasze ostatnie realizacje
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {projects.map(({ title, description, image, alt }, i) => (
+          {projects.map(({ title, description, image, alt,minimage }, i) => (
             <article
               key={i}
               className="relative rounded-xl overflow-hidden cursor-pointer shadow-lg border border-pink-500 hover:scale-[1.03] transition-transform duration-300"
@@ -125,7 +126,7 @@ export default function ProgrammingOffer() {
               }}
             >
               <img
-                src={image}
+                src={minimage}
                 alt={alt}
                 loading="lazy"
                 className="w-full h-48 object-cover rounded-xl"
@@ -183,8 +184,8 @@ export default function ProgrammingOffer() {
     <WebSteps />
     {/* <WebGallery /> */}
     <WebFeatures />
-    <WebTestimonials />
     <TableSucces />
+    <WebTestimonials />
     <CTA />
     {/* <InteractiveCards /> */}
   </>

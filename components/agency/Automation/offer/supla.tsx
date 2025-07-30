@@ -37,20 +37,16 @@ export default function SuplaControlSection() {
       </div>
 
       {/* Sekcja z trzema zdjęciami */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12 px-4">
-        {[
-          "/assets/images/supla/brama.jpg",
-          "/assets/images/supla/garaz.jpg",
-          "/assets/images/supla/swiatla.jpg",
-        ].map((src, i) => (
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6">
+        {[1, 2, 3].map((num) => (
           <div
-            key={i}
-            className="rounded-xl border-2 border-green-400 p-2 shadow-lg shadow-green-600/40"
+            key={num}
+            className="p-1 rounded-xl bg-gradient-to-r from-green-400 to-yellow-400 shadow-lg shadow-green-600/50"
           >
             <img
-              src={src}
-              alt={`Zdjęcie Supla ${i + 1}`}
-              className="w-full h-auto rounded-lg object-cover"
+              src={`/assets/images/automation/supla_${num}.jpg`}
+              alt={`Widok aplikacji supla smart home ${num}`}
+              className="w-full rounded-lg object-cover"
               loading="lazy"
             />
           </div>
