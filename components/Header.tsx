@@ -73,9 +73,9 @@ pathname === '/smart-home'
   return (
     <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <span className={`text-xl font-bold transition-all duration-300 ${logoClass}`}>
+        <span className={`text-xl font-bold transition-all duration-300 `}>
           <Link
-            href="/">BIENKOWSKI.DEV</Link>
+            href="/">BIENKOWSKI<span className={logoClass}>.DEV</span></Link>
 
         </span>
         <div className="space-x-6 hidden md:flex text-white">

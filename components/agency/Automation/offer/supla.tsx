@@ -1,5 +1,5 @@
 'use client';
-
+import Image from 'next/image';
 export default function SuplaControlSection() {
   return (
     <section className="max-w-[1280px] mx-auto px-6 py-24 text-white bg-black flex flex-col gap-16">
@@ -43,12 +43,15 @@ export default function SuplaControlSection() {
             key={num}
             className="p-1 rounded-xl bg-gradient-to-r from-green-400 to-yellow-400 shadow-lg shadow-green-600/50"
           >
-            <img
+    
+                                                   <Image
               src={`/assets/images/automation/supla_${num}.jpg`}
               alt={`Widok aplikacji supla smart home ${num}`}
               className="w-full rounded-lg object-cover"
               loading="lazy"
-            />
+width={300}
+height={300}
+                                />
           </div>
         ))}
       </div>

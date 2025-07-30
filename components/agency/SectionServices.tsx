@@ -7,6 +7,7 @@ import WebGallery from "./Programing/WebGallery";
 import WebFeatures from "./Programing/WebFeatures";
 import WebTestimonials from "./Programing/WebTestimonials";
 import InteractiveCards from "./Programing/InteractiveCard"
+import Image from 'next/image';
 import TableSucces from "./Programing/TableSucces";
 import CTA from "./Programing/CTA";
 
@@ -125,12 +126,18 @@ export default function ProgrammingOffer() {
                 if (e.key === "Enter") openModal(i);
               }}
             >
-              <img
-                src={minimage}
-                alt={alt}
-                loading="lazy"
-                className="w-full h-48 object-cover rounded-xl"
-              />
+
+
+
+                            <Image
+                               src={minimage}
+                               alt={alt}
+                                    loading="lazy"
+                                    className="w-full h-48 object-cover rounded-xl"
+                                  width={300}
+                                  height={400}
+                                />
+
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 p-6 flex flex-col justify-end rounded-xl">
                 <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
                 <p className="text-white/80 text-sm leading-relaxed">{description}</p>
@@ -150,11 +157,19 @@ export default function ProgrammingOffer() {
             className="relative w-full max-w-5xl max-h-[95vh] mx-4 overflow-y-auto rounded-xl border border-white bg-black p-4 flex items-center justify-center h-[90vh]"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
-              src={projects[currentIndex].image}
-              alt={projects[currentIndex].alt}
-              className=" max-w-full rounded-lg object-contain object-top absolute top-0"
-            />
+
+
+
+
+                               <Image
+                                src={projects[currentIndex].image}
+                                alt={projects[currentIndex].alt}
+                                    loading="lazy"
+                   className=" max-w-full rounded-lg object-contain object-top absolute top-0"
+                   height={1000}
+                   width={500}
+                                />
+
             {/* Controls */}
             <button
               onClick={closeModal}

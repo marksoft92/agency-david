@@ -6,9 +6,8 @@ import WebFeatures from "./Automation/WebFeatures";
 import WebTestimonials from "./Automation/WebTestimonials";
 import TableSucces from "./Automation/TableSucces";
 import CTA from "./Automation/CTA";
-import InteractiveCard from "./Automation/InteractiveCard";
 import Link from "next/link";
-import ArrowBetweenSections from "../ArrowBetweenSections";
+import Image from 'next/image';
 const projects = [
     {
         title: "Instalacja kamer IP BCS",
@@ -137,11 +136,13 @@ export default function SmartHomeOffer() {
                                     if (e.key === "Enter") openModal(i);
                                 }}
                             >
-                                <img
+                                <Image
                                     src={image}
                                     alt={alt}
                                     loading="lazy"
                                     className="w-full h-[20rem] object-cover rounded-xl "
+                                    width={400}
+                                    height={300}
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 p-6 flex flex-col rounded-xl justify-center hover:bg-black/50">
                                     <h3 className="text-2xl font-bold text-green-400 mb-2">{title}</h3>
@@ -162,11 +163,15 @@ export default function SmartHomeOffer() {
                             className="relative w-full max-w-5xl max-h-[95vh] mx-4 overflow-y-auto rounded-xl border border-white bg-black p-4 flex items-center justify-center h-[90vh]"
                             onClick={(e) => e.stopPropagation()}
                         >
-                            <img
-                                src={projects[currentIndex].image}
-                                alt={projects[currentIndex].alt}
-                                className=" max-w-full rounded-lg object-contain object-top absolute top-0"
-                            />
+
+                                <Image
+                                  src={projects[currentIndex].image}
+                                  alt={projects[currentIndex].alt}
+                                    loading="lazy"
+                                   className=" max-w-full rounded-lg object-contain object-top absolute top-0"
+                                  fill
+                                />
+
                             {/* Controls */}
                             <button
                                 onClick={closeModal}
