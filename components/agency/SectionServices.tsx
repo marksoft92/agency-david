@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useState } from "react";
 import WebSteps from "./Programing/WebSteps";
-import WebGallery from "./Programing/WebGallery";
 import WebFeatures from "./Programing/WebFeatures";
 import WebTestimonials from "./Programing/WebTestimonials";
 import InteractiveCards from "./Programing/InteractiveCard"
@@ -15,7 +14,7 @@ const projects = [
   {
     title: "Strony internetowe",
     description: "Profesjonalne, responsywne i zoptymalizowane pod SEO strony www, które pomagają rozwinąć Twój biznes online.",
-    image:"/assets/images/programing/webapp_2.webp",
+    image: "/assets/images/programing/webapp_2.webp",
     minimage: "/assets/images/capture/webapp_2.webp",
     alt: "Projekt strony internetowej",
   },
@@ -29,14 +28,14 @@ const projects = [
     title: "Aplikacje webowe",
     description: "Dedykowane aplikacje webowe z nowoczesnym designem i skalowalną architekturą dostosowaną do Twoich potrzeb.",
     minimage: "/assets/images/capture/webapp_1.webp",
-    image:"/assets/images/programing/webapp_1.webp",
+    image: "/assets/images/programing/webapp_1.webp",
     alt: "Projekt aplikacji webowej",
   },
   {
     title: "Aplikacje mobilne",
     description: "Natywne i hybrydowe aplikacje mobilne na Android i iOS o wysokiej wydajności i przyjaznym interfejsie.",
     minimage: "/assets/images/capture/webapp_3.webp",
-    image:"/assets/images/programing/webapp_3.webp",
+    image: "/assets/images/programing/webapp_3.webp",
     alt: "Projekt aplikacji mobilnej",
   },
   // {
@@ -98,17 +97,17 @@ export default function ProgrammingOffer() {
         </div>
 
         <div className="bg-[#1A1A1A] p-6 rounded-2xl shadow-lg border border-[#2e2e2e] flex flex-col justify-between items-stretch">
-  <h3 className="text-white text-2xl font-semibold mb-4 uppercase">Technologie, których używamy</h3>
-  <p className="text-[#A5A5A5] text-lg leading-relaxed mb-6">
-    React, Next.js, TypeScript, Node.js, Tailwind CSS, Docker, AWS, GraphQL i wiele innych nowoczesnych narzędzi i frameworków.
-  </p>
-  <Link
-    href="/produkty-cyfrowe"
-    className="inline-block bg-pink-600 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-pink-700 transition-colors duration-300 shadow-md"
-  >
-    Zobacz nasze produkty cyfrowe →
-  </Link>
-</div>
+          <h3 className="text-white text-2xl font-semibold mb-4 uppercase">Technologie, których używamy</h3>
+          <p className="text-[#A5A5A5] text-lg leading-relaxed mb-6">
+            React, Next.js, TypeScript, Node.js, Tailwind CSS, Docker, AWS, GraphQL i wiele innych nowoczesnych narzędzi i frameworków.
+          </p>
+          <Link
+            href="/produkty-cyfrowe"
+            className="inline-block bg-pink-600 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-pink-700 transition-colors duration-300 shadow-md"
+          >
+            Zobacz nasze produkty cyfrowe →
+          </Link>
+        </div>
       </div>
 
       {/* Galeria projektów */}
@@ -117,7 +116,7 @@ export default function ProgrammingOffer() {
           Nasze ostatnie realizacje
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {projects.map(({ title, description, image, alt,minimage }, i) => (
+          {projects.map(({ title, description, image, alt, minimage }, i) => (
             <article
               key={i}
               className="relative rounded-xl overflow-hidden cursor-pointer shadow-lg border border-pink-500 hover:scale-[1.03] transition-transform duration-300"
@@ -131,14 +130,14 @@ export default function ProgrammingOffer() {
 
 
 
-                            <Image
-                               src={minimage}
-                               alt={alt}
-                                    loading="lazy"
-                                    className="w-full h-48 object-cover rounded-xl"
-                                  width={300}
-                                  height={400}
-                                />
+              <Image
+                src={minimage}
+                alt={alt}
+                loading="lazy"
+                className="w-full h-48 object-cover rounded-xl"
+                width={300}
+                height={400}
+              />
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 p-6 flex flex-col justify-end rounded-xl hover:bg-black/50">
                 <h3 className="text-2xl font-bold text-pink-500 mb-2">{title}</h3>
@@ -163,14 +162,14 @@ export default function ProgrammingOffer() {
 
 
 
-                               <Image
-                                src={projects[currentIndex].image}
-                                alt={projects[currentIndex].alt}
-                                    loading="lazy"
-                   className=" max-w-full rounded-lg object-contain object-top absolute top-0 w-full"
-                   height={1000}
-                   width={500}
-                                />
+            <Image
+              src={projects[currentIndex].image}
+              alt={projects[currentIndex].alt}
+              loading="lazy"
+              className=" max-w-full rounded-lg object-contain object-top absolute top-0 w-full"
+              height={1000}
+              width={500}
+            />
 
             {/* Controls */}
             <button
@@ -202,7 +201,7 @@ export default function ProgrammingOffer() {
     {/* <WebGallery /> */}
     <WebFeatures />
     <TableSucces />
-     <WebTestimonials />
+    <WebTestimonials />
     <CTA />
     {/* <InteractiveCards /> */}
   </>

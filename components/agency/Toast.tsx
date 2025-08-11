@@ -4,7 +4,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
-export default function Toast({ message, onClose,bg }: { bg: string;message: string; onClose: () => void }) {
+export default function Toast({ message, onClose, bg }: any) {
   useEffect(() => {
     const timer = setTimeout(() => onClose(), 2000)
     return () => clearTimeout(timer)
@@ -16,7 +16,7 @@ export default function Toast({ message, onClose,bg }: { bg: string;message: str
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 20 }}
-        className={"fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white px-6 py-3 rounded-full shadow-lg z-50 text-sm font-medium "+bg}
+        className={"fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white px-6 py-3 rounded-full shadow-lg z-50 text-sm font-medium " + bg}
       >
         {message}
       </motion.div>

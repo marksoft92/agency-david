@@ -8,7 +8,7 @@ import { notFound } from "next/navigation";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import GoogleRecaptchaWrapper from "@/components/GoogleCaptchaWrapper";
-import CookieBanner from "@/components/CookieBanner";
+
 import { Suspense } from "react";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GTMHead from "@/components/GTMHead";
@@ -29,9 +29,9 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { };
+  params: any;  // lub po prostu `any`
 }>) {
-  
+
 
 
 
@@ -51,11 +51,11 @@ export default async function RootLayout({
         </Suspense>
         {/* <GTMNoScript /> */}
 
-          <Header />
-          {children}
-          {/* <GoogleRecaptchaWrapper>{children}</GoogleRecaptchaWrapper> */}
-          <Footer />
-          {/* <CookieBanner locale={locale} /> */}
+        <Header />
+        {children}
+        {/* <GoogleRecaptchaWrapper>{children}</GoogleRecaptchaWrapper> */}
+        <Footer />
+        {/* <CookieBanner locale={locale} /> */}
 
       </body>
     </html>
