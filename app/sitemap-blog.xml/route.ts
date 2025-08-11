@@ -3,7 +3,7 @@
 import { NextResponse } from "next/server";
 
 const locales = ["pl"];
-const BASE_URL = process.env.APP_URL || "https://stalumo.com";
+const BASE_URL = process.env.APP_URL || "https://bienkowski.dev";
 
 async function fetchPosts(lang: string) {
     try {

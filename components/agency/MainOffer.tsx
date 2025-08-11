@@ -35,12 +35,12 @@ export default function OffersPage() {
   return (
     <section className="min-h-screen bg-black text-white p-8 flex flex-col items-center">
       <nav className="flex gap-8 mb-10">
-        {buttons.map(({ id, label, bgFrom, bgTo, textColorActive, shadowColor,focus }) => {
+        {buttons.map(({ id, label, bgFrom, bgTo, textColorActive, shadowColor, focus }) => {
           const isActive = activeOffer === id;
           return (
             <button
               key={id}
-              onClick={() => setActiveOffer(id)}
+              onClick={() => setActiveOffer(id as 'automation' | 'programming')}
               className={`
                 relative px-8 py-3 rounded-3xl font-semibold transition
                 ${isActive

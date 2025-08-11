@@ -2,7 +2,7 @@
 // import rawDescriptions from '@/data/spawanie_zachodniopomorskie_uslugi.json';
 
 // const locales = ["en", "pl", "de"];
-// const BASE_URL = process.env.APP_URL || "https://stalumo.com";
+// const BASE_URL = process.env.APP_URL || "https://bienkowski.dev";
 
 // type ServiceEntry = {
 //   slugCity: string;

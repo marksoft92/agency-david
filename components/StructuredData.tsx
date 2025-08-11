@@ -1,18 +1,18 @@
 import Script from "next/script";
 
 export const StructuredData = ({ locale }: { locale: any }) => {
-  const baseUrl = `https://stalumo.com/${locale}`;
+  const baseUrl = `https://bienkowski.dev/${locale}`;
   const data = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Stalumo",
-    image: "https://stalumo.com/assets/images/logo.png",
+    name: "Bieńkowski Dawid",
+    image: "https://bienkowski.dev/assets/images/logo.png",
     "@id": baseUrl,
     url: baseUrl,
-    telephone: "+48 784-532-549",
+    telephone: "+48 606523703",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "ul. Kolejowa 6",
+      streetAddress: "ul. słoneczna 10",
       addressLocality: "Drawno",
       postalCode: "73-220",
       addressCountry: "PL",
