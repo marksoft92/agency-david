@@ -30,13 +30,13 @@ export async function GET() {
 
 
     for (const path of pages) {
-        pages.push(`${baseUrl}/${path}`);
+        urls.push(`${baseUrl}/${path}`);
     }
 
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${pages
+${urls
             .map(
                 (url: any) => `
   <url>
