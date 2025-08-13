@@ -1,0 +1,7 @@
+# Wszystkie roboty mają prawo indeksować całą stronę
+User-agent: *
+Allow: /
+
+# Sitemapy
+Sitemap: https://bienkowski.dev/sitemap.xml
+Sitemap: https://bienkowski.dev/sitemap-main.xml
