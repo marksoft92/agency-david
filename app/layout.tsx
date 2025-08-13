@@ -14,7 +14,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GTMHead from "@/components/GTMHead";
 import GTMNoScript from "@/components/GTMNoScript";
 import StructuredData from "@/components/StructuredData";
-
+import { createMetadata } from "../seo.config";
 
 
 
@@ -23,6 +23,9 @@ const hubotSans = Hubot_Sans({
   variable: '--font-hubot',
 })
 
+export async function generateMetadata() {
+  return createMetadata(); // fallback dla całej strony
+}
 
 export default async function RootLayout({
   children,
@@ -40,6 +43,7 @@ export default async function RootLayout({
     <html lang={'pl'}>
       <head>
         {/* <GTMHead /> */}
+        <StructuredData />
       </head>
       <body
         className={`${hubotSans.variable} antialiased`}

@@ -1,8 +1,10 @@
 import Script from "next/script";
 
-export const StructuredData = ({ locale }: { locale: any }) => {
-  const baseUrl = `https://bienkowski.dev/${locale}`;
-  const data = {
+export const StructuredData = () => {
+  const baseUrl = `https://bienkowski.dev/`;
+
+  // LocalBusiness
+  const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Bieńkowski Dawid",
@@ -12,7 +14,7 @@ export const StructuredData = ({ locale }: { locale: any }) => {
     telephone: "+48 606523703",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "ul. słoneczna 10",
+      streetAddress: "ul. Słoneczna 10",
       addressLocality: "Drawno",
       postalCode: "73-220",
       addressCountry: "PL",
@@ -33,12 +35,50 @@ export const StructuredData = ({ locale }: { locale: any }) => {
     ],
   };
 
+  // Organization
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Bienkowski Dev",
+    url: "https://www.bienkowski.dev",
+    logo: "https://bienkowski.dev/assets/images/logo.png",
+    sameAs: [
+      "https://www.facebook.com/twoja_strona",
+      "https://www.linkedin.com/in/twoj_profil",
+      "https://github.com/twoj_github",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+48 606523703",
+      contactType: "customer service",
+      areaServed: "PL",
+      availableLanguage: ["Polish", "English"],
+    },
+  };
+
+  // WebSite
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    url: "https://www.bienkowski.dev",
+    name: "BIENKOWSKI.DEV",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://www.bienkowski.dev/search?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+  const allSchemas = [localBusinessSchema, organizationSchema, websiteSchema];
+
   return (
     <Script
       id="structured-data"
       type="application/ld+json"
       strategy="afterInteractive"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(allSchemas),
+      }}
     />
   );
 };
