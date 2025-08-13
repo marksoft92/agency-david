@@ -3,8 +3,6 @@
 import Hero from "@/components/agency/Hero";
 import SectionServices from "@/components/agency/SectionServices";
 import SectionAutomation from "@/components/agency/SectionAutomation";
-import CTA from "@/components/agency/CTA";
-import Footer from "@/components/agency/Footer";
 import Navbar from "@/components/agency/Navbar";
 import Head from "next/head";
 
@@ -53,8 +51,6 @@ export default function HomePage() {
         <Hero />
         <SectionServices />
         <SectionAutomation />
-        <CTA />
-        <Footer />
       </main>
     </>
   );
