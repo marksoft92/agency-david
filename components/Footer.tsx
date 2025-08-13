@@ -15,14 +15,14 @@ export default function Footer() {
         <nav className="flex gap-6 text-sm">
           <a href="#home" className="footer-link">Strona główna</a>
           <a href="#services" className="footer-link">Usługi</a>
-          <a href="#about" className="footer-link">O nas</a>
+          <a href="/oferta" className="footer-link">Oferta</a>
           <a href="/kontakt" className="footer-link">Kontakt</a>
         </nav>
 
         {/* Social media */}
         <div className="flex gap-4">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/profile.php?id=61579197578088"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-icon"

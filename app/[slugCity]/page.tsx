@@ -94,7 +94,7 @@ export default function Page({ params }: any) {
         "priceRange": "500–10000 PLN",
         "description": entry.description,
         "sameAs": [
-            "https://www.facebook.com/bienkowski.dev",
+            "https://www.facebook.com/profile.php?id=61579197578088",
             "https://www.instagram.com/bienkowski.dev",
             "https://www.google.com/maps/place/ul.+sloneczna+10,+73-220+Drawno"
         ],
